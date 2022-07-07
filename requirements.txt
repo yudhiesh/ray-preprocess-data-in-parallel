@@ -1,0 +1,12 @@
+ray[default]==1.6.0
+aiohttp==3.7.4
+numpy
+beautifulsoup4
+transformers
+sklearn
+pandas
+tensorflow==2.5.0
+cloudpickle
+pyarrow
+fsspec
+tqdm

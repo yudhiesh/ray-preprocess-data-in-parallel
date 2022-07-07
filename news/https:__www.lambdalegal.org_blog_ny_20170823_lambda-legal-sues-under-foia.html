@@ -1,0 +1,611 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:schema="http://schema.org/">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta property="fb:pages" content="8145161702" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" /><meta name="MobileOptimized" content="width" /><meta name="HandheldFriendly" content="true" /><meta name="apple-mobile-web-app-capable" content="yes" />  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"ba75a8c102",applicationID:"67245543"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1211.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/blog/ny_20170823_lambda-legal-sues-under-foia" />
+<link rel="shortlink" href="/node/48291" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.lambdalegal.org/blog/ny_20170823_lambda-legal-sues-under-foia" />
+<meta property="og:site_name" content="Lambda Legal" />
+<meta property="og:title" content="Lambda Legal Sues U.S. Departments of Education and Justice for Documents about Trans Student Guidance Withdrawal" />
+<meta property="og:image" content="https://www.lambdalegal.org/sites/default/files/styles/share_fb/public/images/share/facebook/ashton-bingham-83457.jpg?itok=-bexO84w" />
+<meta property="og:description" content="The U.S. Departments of Education and Justice have failed to comply with FOIA requests and have not released a single document to Lambda Legal." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:domain" content="appserver-82dae887-nginx-f62015a498c44f6d8b6f2d032422c8b4" />
+<meta name="twitter:site" content="@LambdaLegal" />
+<meta name="twitter:site:id" content="Lambda Legal" />
+<meta name="twitter:creator" content="@LambdaLegal" />
+<meta name="twitter:creator:id" content="Lambda Legal" />
+<meta name="twitter:url" content="https://www.lambdalegal.org/blog/ny_20170823_lambda-legal-sues-under-foia" />
+<meta name="twitter:title" content="Lambda Legal Sues U.S. Departments of Education and Justice for Documents about Trans Student Guidance Withdrawal" />
+<meta name="twitter:image" content="https://www.lambdalegal.org/sites/default/files/styles/share_tw/public/images/share/twitter/ashton-bingham-83457.jpg?itok=vYpvVLhc" />
+<meta name="twitter:description" content="The U.S. Departments of Education and Justice have failed to comply with Lambda Legal&amp;#039;s FOIA requests." />
+<meta name="twitter:title" content="Lambda Legal Sues U.S. Departments of Education and Justice for Documents about Trans Student Guidance Withdrawal" />
+<meta name="description" content="The U.S. Departments of Education and Justice have failed to comply with FOIA requests and have not released a single document to Lambda Legal." />
+  <title>Lambda Legal Sues U.S. Departments of Education and Justice for Documents about Trans Student Guidance Withdrawal | Lambda Legal</title>
+  <link type="text/css" rel="stylesheet" href="https://www.lambdalegal.org/sites/default/files/css/css_ywqYrtSodM0qVMzAkOSnqZ_iBnAVpkSeD_yPtUN9tBk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.lambdalegal.org/sites/default/files/css/css_Jdtt3Tl52dxH8dxYG3LDxk_0yM3d6kCB5xso7BSBjjU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.lambdalegal.org/sites/default/files/css/css_bhUdCb9czq87dH6CLQO5GuE3tmbwuYHgNPAmvQU-XNA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.lambdalegal.org/sites/default/files/css/css_HqLGS8Jgs9dzCZdMkexfyFNrq0oeqz7I6JTPkR4GfmQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.lambdalegal.org/sites/default/files/css/css_w0KoHwFnu6O_z9hiJjMxaTYab4VfXVuThxZ2KCYsEkg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.lambdalegal.org/sites/default/files/css/css_bYz9ikb04rHBt45bDSL0Eb6-YdrPPfxIsQtetdfNhc4.css" media="print" />
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://www.lambdalegal.org/sites/default/files/css/css_sHceGQiesHApnf2bKQ9jBoKoTrSfrXOXYr3ReMtz2D8.css" media="all" />
+<![endif]-->
+    <link href='https://fonts.googleapis.com/css?family=Noto Serif:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Noto Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel="stylesheet">
+  <script type="text/javascript" src="https://www.lambdalegal.org/sites/default/files/js/js_SLhVWaB-pNMys6g4JX2uuZ4vIhNekb9fnm_9LITRWsg.js"></script>
+<script type="text/javascript" src="https://www.lambdalegal.org/sites/all/libraries/modernizr/modernizr.min.js?r1h3vo"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.lambdalegal.org/sites/default/files/js/js_38VWQ3jjQx0wRFj7gkntZr077GgJoGn5nv3v05IeLLo.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery.ui || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.lambdalegal.org/sites/default/files/js/js_pqwOk5eSy5GqvnczSeTAVYvRahOpjGwFulu1wMNSknU.js"></script>
+<script type="text/javascript" src="https://www.lambdalegal.org/sites/default/files/js/js_JAa94DgScSJAjisxr_-KYmqbcloWNodJ2iEbYxGOHKE.js"></script>
+<script type="text/javascript" src="https://www.lambdalegal.org/sites/default/files/js/js_pz6cnEHwGr5OVZJr9FiG81pzwiFpn4UV5HYlD_n4w74.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"lambda2013","theme_token":"sS3H1oYYo02yq-jt9Pi1XYzDpvpxe9Y-umKWO952vIk","jquery_version":"1.7","js":{"public:\/\/google_tag\/language\/google_tag.en.script.js":1,"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.2\/jquery.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"misc\/jquery.ba-bbq.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.js":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.js":1,"sites\/all\/modules\/custom\/ll_alert\/js\/ll_alert.js":1,"sites\/all\/modules\/custom\/ll_ecard\/ll_ecard.js":1,"sites\/all\/modules\/custom\/ll_events\/ll_events.js":1,"sites\/all\/modules\/contrib\/compact_forms\/compact_forms.js":1,"misc\/progress.js":1,"sites\/all\/themes\/lambda2013\/js\/responsive.js":1,"sites\/all\/modules\/custom\/site\/site.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/contrib\/superfish\/superfish.js":1,"sites\/all\/themes\/lambda2013\/js\/site.js":1,"sites\/all\/themes\/lambda2013\/js\/navigation.js":1,"sites\/all\/themes\/lambda2013\/js\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/lambda2013\/js\/carousel-custom.js":1,"sites\/all\/themes\/lambda2013\/js\/region-accordian-open.js":1,"sites\/all\/themes\/lambda2013\/js\/jquery-validate-min.js":1,"sites\/all\/themes\/lambda2013\/js\/case.js":1,"sites\/all\/themes\/lambda2013\/js\/ll_cases_docs.js":1,"sites\/all\/themes\/lambda2013\/js\/libraries\/jquery.royalslider.min.js":1,"sites\/all\/themes\/lambda2013\/js\/paragraphs.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/custom\/horizontal_forms\/horizontal_forms.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/freepager\/freepager.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/youtube\/css\/youtube.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/ll_ecard\/ll_ecard.css":1,"sites\/all\/modules\/custom\/ll_personal_stories\/ll_personal_stories.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"public:\/\/ctools\/css\/d01a8ce92d611053f08ad8e87418f382.css":1,"sites\/all\/modules\/contrib\/compact_forms\/compact_forms.css":1,"modules\/locale\/locale.css":1,"sites\/all\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"sites\/all\/modules\/contrib\/jcarousel\/skins\/default\/jcarousel-default.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/lambda2013\/css\/html-reset.css":1,"sites\/all\/themes\/lambda2013\/css\/wireframes.css":1,"sites\/all\/themes\/lambda2013\/css\/page-backgrounds.css":1,"sites\/all\/themes\/lambda2013\/css\/tabs.css":1,"sites\/all\/themes\/lambda2013\/css\/pages.css":1,"sites\/all\/themes\/lambda2013\/css\/navigation.css":1,"sites\/all\/themes\/lambda2013\/css\/views-styles.css":1,"sites\/all\/themes\/lambda2013\/css\/panels-styles.css":1,"sites\/all\/themes\/lambda2013\/css\/nodes.css":1,"sites\/all\/themes\/lambda2013\/css\/comments.css":1,"sites\/all\/themes\/lambda2013\/css\/forms.css":1,"sites\/all\/themes\/lambda2013\/css\/fields.css":1,"sites\/all\/themes\/lambda2013\/css\/style.css":1,"sites\/all\/themes\/lambda2013\/css\/print.css":1,"sites\/all\/themes\/lambda2013\/css\/ie8.css":1,"sites\/all\/themes\/lambda2013\/css\/ie8-lte.css":1}},"apachesolr_autocomplete":{"path":"\/apachesolr_autocomplete","forms":{"search-block-form":{"id":"search-block-form","path":"\/apachesolr_autocomplete_callback\/apachesolr_search_page%3Acore_search"}}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"ll_alert":{"ll_alert_id":"mcgowantestimony202107"},"ll_events":{"theme_path":"sites\/all\/themes\/lambda2013"},"ll_issues":{"issue_blog_path":"blog\/topic\/ny_20170823_lambda-legal-sues-under-foia"},"site":{"module_path":"sites\/all\/modules\/custom\/site","lang_code":"en"},"urlIsAjaxTrusted":{"\/blog\/ny_20170823_lambda-legal-sues-under-foia":true,"\/system\/ajax":true,"\/site\/search":true},"compactForms":{"forms":["ll-home-page-pledge-form","ll-pledge-campaign-3-pledge-form","ll-pledge-campaign-2-pledge-form","ll-pledge-campaign-pledge-form","user-login-form","search-block-form","search-form","apachesolr-panels-search-form--2","views-exposed-form-cases-panel-pane-1","views-exposed-form-cases-panel-pane-2","views-exposed-form-cases-panel-pane-3","views-exposed-form-cases-panel-pane-4","views-exposed-form-cases-panel-pane-9","views-exposed-form-legal-docs-default","views-exposed-form-tool-kits-default","views-exposed-form-fact-sheets-default","views-exposed-form-videos-default","views-exposed-form-staff-panel-pane-1","views-exposed-form-staff-panel-pane-2","views-exposed-form-blog-index-panel-pane-5","ll-blog-signup","ll-newsletter-email-signup-form","ll-newsletter-email-signup-form-2","webform-client-form-30846","webform-client-form-30071","webform-client-form-20605","webform-client-form-30066","webform-client-form-20618","webform-client-form-21374","webform-client-form-21083","webform-client-form-21170","webform-client-form-20606","webform-client-form-21088","webform-client-form-30886","webform-client-form-34176","webform-client-form-34711","webform-client-form-36451","webform-client-form-38746","webform-client-form-40286","webform-client-form-40507","webform-client-form-41446","webform-client-form-42181","webform-client-form-43281","webform-client-form-44966","webform-client-form-46496","webform-client-form-47171","webform-client-form-47281","ll-newsletter-email-signup-side-form","views-exposed-form-staff-all-staff-panel"],"stars":1},"ajax":{"email-signup-form-id":{"callback":"ll_newsletter_email_signup_ajax_form_submit","wrapper":"ll-newsletter-email-signup-form","effect":"fade","event":"mousedown","keypress":true,"prevent":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Join Us"}}},"lambda2013":{"lang_code":"en","nid":"48291"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":0,"autoArrows":false,"dropShadows":false},"plugins":{"touchscreen":{"mode":"useragent_predefined"},"supposition":true,"supersubs":{"minWidth":"14","maxWidth":"14"}}}}});
+//--><!]]>
+</script>
+  
+      <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '894669850565180'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=894669850565180&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+
+    <script>
+      window.fbAsyncInit = function() {
+	FB.init({
+	  appId            : '183277102217003',
+	  autoLogAppEvents : true,
+	  xfbml            : true,
+	  version          : 'v2.10'
+	});
+	FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) {return;}
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js";
+	fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+    <script>
+      function shareOverrideOGMeta(shareObject) {
+        FB.ui({
+            method: 'share_open_graph',
+            action_type: 'og.shares',
+            action_properties: JSON.stringify({
+              'object': shareObject
+            })
+          },
+          function (response) {
+          });
+      }
+
+      function shareVideoFeed(shareObject) {
+        FB.ui({
+          method: 'feed',
+          link: shareObject.link,
+          caption: shareObject.caption,
+          picture: shareObject.picture
+        },
+        function(response){});
+      }
+
+    </script>
+
+  
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-48291 node-type-blog blog i18n-en panels-layout panels-layout-flexible__two_column_narrow_first section-blog bc-responsive" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXNFPWH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>  
+  <div id="page-wrapper"><div id="page">
+
+		
+    <div id="header"><div class="section clearfix">
+			<a href="/" title="Lambda Legal Home Page" rel="home" id="logo">
+				<img src="/sites/all/themes/lambda2013/images/lambda-legal-logo.svg" alt="Lambda Legal Home Page" />
+			</a>
+        <div class="region region-header">
+    <div id="block-menu-menu-utility" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/events" title="">Events</a></li>
+<li class="last leaf"><a href="https://shop.lambdalegal.org/">Shop</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/site/search" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="apachesolr-autocomplete form-text" data-apachesolr-autocomplete-id="search-block-form" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="30" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-zdS5SYBfN1P6g293H6JMVwrk59_N1SYE-DWTiCtTdO0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-superfish-1" class="block block-superfish">
+
+    
+  <div class="content">
+    <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-7 sf-parent-items-6 sf-single-items-1"><li id="menu-1486-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/about-us" class="sf-depth-1 menuparent">About Us</a><ul><li id="menu-1955-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/about-us/history" class="sf-depth-2">History</a></li><li id="menu-26446-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/about-us/staff" class="sf-depth-2">Staff</a></li><li id="menu-2496-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/about-us/board-nlc" title="" class="sf-depth-2">Board &amp; Leadership</a></li><li id="menu-1956-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/about-us/financial" class="sf-depth-2">Financials</a></li><li id="menu-26721-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/about-us/strategic-plan" class="sf-depth-2">Strategic Plan</a></li><li id="menu-27771-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/about-us/jobs" class="sf-depth-2">Jobs</a></li><li id="menu-1957-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/about-us/contact-us" class="sf-depth-2">Contact Us</a></li></ul></li><li id="menu-1487-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-13 sf-parent-children-1 sf-single-children-12 menuparent"><a href="/our-work" class="sf-depth-1 menuparent">Our Work</a><ul><li id="menu-2559-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/issues/employment-and-rights-in-the-workplace" class="sf-depth-2">Employment</a></li><li id="menu-2560-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/issues/fair-courts-project" class="sf-depth-2">Fair Courts</a></li><li id="menu-2561-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/issues/marriage-relationships-and-family-protections" class="sf-depth-2">Family</a></li><li id="menu-2565-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/issues/health-care-fairness" class="sf-depth-2">Health Care</a></li><li id="menu-2564-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/issues/hiv" class="sf-depth-2">HIV</a></li><li id="menu-30246-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/issues/immigration" class="sf-depth-2">Immigration</a></li><li id="menu-2568-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="/issues/proyecto-igualdad" class="sf-depth-2">Latino Outreach</a></li><li id="menu-2567-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="/issues/police-and-criminal-justice" class="sf-depth-2">Police &amp; Criminal Justice</a></li><li id="menu-49107-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a href="/issues/racial-justice-low-income-advocacy" class="sf-depth-2">Racial Justice &amp; Low-Income Advocacy</a></li><li id="menu-49166-1" class="middle even sf-item-10 sf-depth-2 sf-no-children"><a href="/issues/religious-exemptions" class="sf-depth-2">Religious Exemptions</a></li><li id="menu-2566-1" class="middle odd sf-item-11 sf-depth-2 sf-no-children"><a href="/issues/seniors" class="sf-depth-2">Seniors</a></li><li id="menu-2563-1" class="middle even sf-item-12 sf-depth-2 sf-no-children"><a href="/issues/teens" class="sf-depth-2">Teens &amp; Young Adults</a></li><li id="menu-2562-1" class="last odd sf-item-13 sf-depth-2"><a href="/issues/transgender-rights" class="sf-depth-2">Transgender Rights</a></li></ul></li><li id="menu-1488-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-5 sf-parent-children-2 sf-single-children-3 menuparent"><a href="/your-rights" class="sf-depth-1 menuparent">Your Rights</a><ul><li id="menu-5718-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/know-your-rights" class="sf-depth-2">Know Your Rights</a></li><li id="menu-1905-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/states-regions/in-your-state" class="sf-depth-2">In Your State</a></li><li id="menu-49197-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/helpdesk" class="sf-depth-2">Legal Help Desk</a></li><li id="menu-1334-1" class="middle even sf-item-4 sf-depth-2"><a href="/in-court/cases" class="sf-depth-2">Cases</a></li><li id="menu-18761-1" class="last odd sf-item-5 sf-depth-2"><a href="/all" class="sf-depth-2">Publications &amp; Resources</a></li></ul></li><li id="menu-1489-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-7 sf-parent-children-2 sf-single-children-5 menuparent"><a href="/take-action" class="sf-depth-1 menuparent">Get Involved</a><ul><li id="menu-7039-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/events" class="sf-depth-2">Events</a></li><li id="menu-49248-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="https://www.lambdalegal.org/national-sponsorship" class="sf-depth-2">National Sponsorship</a></li><li id="menu-1960-1" class="middle odd sf-item-3 sf-depth-2"><a href="/volunteer" class="sf-depth-2">Volunteer</a></li><li id="menu-21276-1" class="middle even sf-item-4 sf-depth-2"><a href="/campaigns" class="sf-depth-2">Campaigns</a></li><li id="menu-6893-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="http://www.lambdalegal.org/join" class="sf-depth-2">Join</a></li><li id="menu-30231-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="https://secure3.convio.net/lambda/site/Donation2?df_id=6181&amp;6181.donation=form1" class="sf-depth-2">Renew</a></li><li id="menu-26481-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="http://www.lambdalegal.org/ways-to-give" class="sf-depth-2">Ways to Give</a></li></ul></li><li id="menu-6895-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children"><a href="http://support.lambdalegal.org/site/Donation2?df_id=6680&amp;mfc_pref=T&amp;6680.donation=form1" class="donate sf-depth-1">Donate</a></li><li id="menu-1491-1" class="middle even sf-item-6 sf-depth-1 sf-total-children-13 sf-parent-children-3 sf-single-children-10 menuparent"><a href="/ways-to-give" class="invisible sf-depth-1 menuparent">Ways to Give</a><ul><li id="menu-2760-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="http://support.lambdalegal.org/site/Donation2?df_id=6680&amp;mfc_pref=T&amp;6680.donation=form1" class="sf-depth-2">Donate Now</a></li><li id="menu-2762-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="https://www.lambdalegal.org/donate" class="sf-depth-2">Monthly Giving</a></li><li id="menu-49102-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="https://www.lambdalegal.org/events/search/type/fundraisers" class="sf-depth-2">Events</a></li><li id="menu-42876-1" class="middle even sf-item-4 sf-depth-2"><a href="/liberty-circle" class="sf-depth-2">Liberty Circle</a></li><li id="menu-2761-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="https://www.lambdalegal.org/renew" class="sf-depth-2">Renew Membership</a></li><li id="menu-26406-1" class="middle even sf-item-6 sf-depth-2"><a href="/legacy" class="sf-depth-2">Estate &amp; Planned Giving</a></li><li id="menu-1966-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="/ways-to-give/employer-matching-gifts" class="sf-depth-2">Employer Matching Gifts</a></li><li id="menu-2757-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="/ways-to-give/stock-gifts" class="sf-depth-2">Stock Gifts</a></li><li id="menu-3052-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a href="http://support.lambdalegal.org/site/Donation2?df_id=7801&amp;mfc_pref=T&amp;7801.donation=form1" class="sf-depth-2">Honor &amp; Memorial Giving</a></li><li id="menu-26476-1" class="middle even sf-item-10 sf-depth-2"><a href="/ways-to-give/wedding-registry" class="sf-depth-2">Wedding &amp; Celebration Registry</a></li><li id="menu-49105-1" class="middle odd sf-item-11 sf-depth-2 sf-no-children"><a href="https://www.lambdalegal.org/about-us/sponsors" class="sf-depth-2">Corporate &amp; Law Firm Sponsorships</a></li><li id="menu-49103-1" class="middle even sf-item-12 sf-depth-2 sf-no-children"><a href="https://www.lambdalegal.org/volunteer" class="sf-depth-2">Volunteer</a></li><li id="menu-49129-1" class="last odd sf-item-13 sf-depth-2 sf-no-children"><a href="https://shop.lambdalegal.org/" class="sf-depth-2">Shop</a></li></ul></li><li id="menu-3221-1" class="active-trail last odd sf-item-7 sf-depth-1 sf-total-children-5 sf-parent-children-1 sf-single-children-4 menuparent"><a href="/news-press" class="invisible sf-depth-1 menuparent">News</a><ul><li id="menu-30301-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/media-center" class="sf-depth-2">Media Center</a></li><li id="menu-4139-1" class="active-trail middle even sf-item-2 sf-depth-2"><a href="/blog" class="sf-depth-2">Blog</a></li><li id="menu-49110-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="https://www.lambdalegal.org/publications/impact" class="sf-depth-2">Impact Magazine</a></li><li id="menu-2574-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="https://www.youtube.com/user/lambdalegal" class="sf-depth-2">Video</a></li><li id="menu-45086-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="https://medium.com/lambdalegal" class="sf-depth-2">Medium</a></li></ul></li></ul>  </div>
+</div>
+  </div>
+    </div></div> <!-- /.section, /#header -->
+
+    <div id="main-wrapper"><div id="main" class="clearfix">
+
+							<div id="breadcrumb"><div class="breadcrumb"><a href="/blog">Blog</a></div></div>
+				
+				
+      <div id="content" class="column"><div class="section">
+                <a id="main-content"></a>
+
+        <div class="tabs"></div>
+                	<div class="page-title-wrapper">
+	        	<div class="col-2"><h1 class="title" id="page-title">Lambda Legal Sues U.S. Departments of Education and Justice for Documents about Trans Student Guidance Withdrawal</h1></div>
+	        </div>
+        
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="panel-flexible pl-two-column-narrow-first clearfix" >
+<div class="panel-flexible-inside pl-two-column-narrow-first-inside">
+<div class="panels-flexible-column panels-flexible-column-pl-two-column-narrow-first-1 panels-flexible-column-first pc-left">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-pl-two-column-narrow-first-1-inside panels-flexible-column-inside-first">
+<div class="panels-flexible-region panels-flexible-region-pl-two-column-narrow-first-left_ panels-flexible-region-first panels-flexible-region-last pr-left">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-pl-two-column-narrow-first-left_-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-menu-menu-blog-browse-by pp-blog-browse-by-menu"  >
+  
+        <h2 class="pane-title">
+      Browse By    </h2>
+    
+  
+  <div class="pane-content">
+    <ul class="menu"><li class="first leaf"><a href="/blog/topic">Topic</a></li>
+<li class="leaf"><a href="/blog/author">Author</a></li>
+<li class="leaf"><a href="/blog/archive">Month</a></li>
+<li class="last leaf"><a href="/blog/state">State</a></li>
+</ul>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-apachesolr-form pp-search-form"  >
+  
+        <h2 class="pane-title">
+      Blog Search    </h2>
+    
+  
+  <div class="pane-content">
+    <form action="/blog/ny_20170823_lambda-legal-sues-under-foia" method="post" id="apachesolr-panels-search-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-apachesolr-panels-search-form">
+  <label class="element-invisible" for="edit-apachesolr-panels-search-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-apachesolr-panels-search-form--2" name="apachesolr_panels_search_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<input type="hidden" name="form_build_id" value="form-9yiVvz0Oqn6ddmpOjVO9yFe4DxU465YVJzkC40K9l58" />
+<input type="hidden" name="form_id" value="apachesolr_panels_search_form" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div></div></form>  </div>
+
+  
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-column panels-flexible-column-pl-two-column-narrow-first-main panels-flexible-column-last pc-right">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-pl-two-column-narrow-first-main-inside panels-flexible-column-inside-last">
+<div class="panels-flexible-region panels-flexible-region-pl-two-column-narrow-first-center panels-flexible-region-first panels-flexible-region-last pr-right">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-pl-two-column-narrow-first-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-node-content pp-content"  >
+  
+      
+  
+  <div class="pane-content">
+    
+<div id="node-48291" class="node node-blog clearfix" about="/blog/ny_20170823_lambda-legal-sues-under-foia" typeof="sioc:Item foaf:Document">
+  
+  <div class="field-collection-container clearfix">  <div style="display:none;"></div>
+</div>  
+  <div class="meta-wrapper">
+    <div class="left">
+      <div class="byline">
+        <span class="author-wrapper">
+          <div class="view view-blog-index view-id-blog_index view-display-id-blog_index_byline view-dom-id-24185be53e8b6e831eef8cb7a99dedd9">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last by-line">
+    
+<label>By</label> <a href="/about-us/staff/blog-author-lambda-legal">Lambda Legal</a>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>        </span>
+      </div>
+      <div class="date">
+        <div class="field field-name-field-start field-type-datetime field-label-hidden"><div class="field-items"><div class="field-item even" property=""><span class="date-display-single" property="" datatype="xsd:dateTime" content="2017-08-23T00:00:00-04:00">August 23, 2017</span></div></div></div>      </div>
+      
+          </div>
+    <div class="right">
+      <div class="sharing-wrapper">
+        <div id="block-site-share-buttons" class="site-share-buttons">
+  <!-- AddThis Button BEGIN -->
+  <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+    <a class="addthis_button_email" >
+      <span class="fa-stack">
+        <i class="fontello icon-circle email">&#xf111;</i>
+        <i class="fontello icon-mail stack-top">&#xe802;</i>
+      </span>
+    </a>
+    <a class="addthis_button_twitter">
+      <span class="fa-stack">
+        <i class="fontello icon-circle tw">&#xf111;</i>
+        <i class="fontello icon-twitter stack-top">&#xf099;</i>
+      </span>
+    </a>
+    <a class="addthis_button_facebook">
+      <span class="fa-stack">
+        <i class="fontello icon-circle fb">&#xf111;</i>
+        <i class="fontello icon-facebook stack-top">&#xf09a;</i>
+      </span>
+    </a>
+  </div>
+
+  <script type="text/javascript">
+    var addthis_share = addthis_share || {};
+
+        var addthis_config = {"data_track_addressbar":false};
+    var script = "//s7.addthis.com/js/300/addthis_widget.js";
+    if (window.addthis) {
+      window.addthis = null;
+      window._adr = null;
+      window._atc = null;
+      window._atd = null;
+      window._ate = null;
+      window._atr = null;
+      window._atw = null;
+    }
+    jQuery.getScript(script);
+  </script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5077153d085cf7a9"></script>
+  <!-- AddThis Button END -->
+
+</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content-components-wrapper">
+    
+<div class="paragraphs-items paragraphs-items-field-content-components paragraphs-items-field-content-components-full paragraphs-items-full">
+  <div class="entity entity-paragraphs-item paragraphs-item-image full alignment-right" about="" typeof="">
+<figure>
+      <img typeof="foaf:Image" src="https://www.lambdalegal.org/sites/default/files/styles/crop_basic/public/paragraph-image/jomar-thomas-271602.jpg?itok=pRazeQZH" alt="" />  <figcaption>
+      	<div class="attribution">Photo by: Jomar Thomas</div>
+              </figcaption>
+</figure>
+  </div><div class="entity entity-paragraphs-item paragraphs-item-copy" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-body-only field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Yesterday, <a href="http://www.lambdalegal.org/in-court/legal-docs/lambda_us_20170822_complaint">Lambda Legal filed a federal lawsuit</a> to compel the U.S. Departments of Education and Justice to release information about <a href="https://www.lambdalegal.org/blog/20170225_trans-students-faq">their decision to withdraw guidance detailing the protections transgender students have</a> under Title IX of the Education Amendments of 1972, which bans discrimination in education on the basis of sex.</p>
+<p>After the U.S. Departments of Education and Justice <a href="https://www.lambdalegal.org/blog/20170225_trans-students-faq">rescinded the guidance</a> in February, we filed Freedom of Information Act (FOIA) requests for documents and communications on the decision to withdraw the guidance.</p>
+<p>The U.S. Departments of Education and Justice have failed to comply with the FOIA requests and have not released a single document to Lambda Legal.</p>
+<p>&ldquo;The Departments of Education and Justice pulled the rug out from under transgender students, leaving them even more vulnerable to harassment and abuse. We need to know why,&rdquo; said Susan Sommer, Associate Legal Director and Director of Constitutional Litigation at Lambda Legal.</p>
+<p>&ldquo;Transparency and accountability are cornerstones of our country&rsquo;s democracy, and the Freedom of Information Act is a vital part of citizens&rsquo; ability to understand how the government works and hold politicians accountable,&quot; Sommer added. &quot;The Departments of Education and Justice cannot be allowed to flout those ideals, to devise policies behind closed doors with terrible consequences for transgender schoolchildren nationwide.&rdquo;</p>
+<p>On February 22, 2017, the Departments of Education and Justice sent a &ldquo;Dear Colleague&rdquo; letter to public school districts withdrawing the guidance issued the previous year.</p>
+<p>Lambda Legal filed FOIA requests on March 13, 2017, for documents related to the decision, including correspondence with any groups outside the government, communications with the President&rsquo;s staff, and instructions to staff about how to handle inquiries and complaints about discrimination, bullying and harassment based on gender identity or transgender status.</p>
+<p>Despite acknowledging receipt of the requests, the Departments of Education and Justice failed to turn over any of the documents requested by the April deadline or in response to Lambda Legal&rsquo;s administrative appeals.</p>
+<p>Issued in 2016 during President Obama&rsquo;s Administration, the guidance reaffirmed that Title IX&rsquo;s ban on sex discrimination includes discrimination on the basis of gender identity and clarified for schools and districts their responsibilities to protect transgender students under Title IX.</p>
+<p>In addition to requiring schools to allow transgender students to use the restrooms and locker rooms that match their gender identity, the guidance provided clarification on name and pronoun use, privacy, dress codes and protection of students from bullying and harassment.</p>
+<p><a href="https://www.lambdalegal.org/trans-students"><strong>If you&#39;re a trans student whose been affected by the Trump administration&#39;s guidance withdrawal, contact Lambda Legal here.</strong></a></p>
+</div></div></div>  </div>
+</div>
+</div>
+  </div>
+  
+  <div class="body-wrapper">
+        
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"></div></div></div>  </div>
+  
+      <div class="see-also-wrapper">
+      <label>See Also:</label>
+      <span class="see-also">
+        <a href="/blog/topic/teens-%26-young-adults">Teens &amp; Young Adults</a>, <a href="/blog/topic/transgender-rights">Transgender Rights</a>, <a href="/blog/topic/youth-and-schools">Youth and Schools</a>, <a href="/blog/state/new-york">New York</a>, <a href="/issues/anti-lgbt-rulings-laws-and-amendments">Anti-LGBT Rulings, Laws and Amendments</a>, <a href="/issues/teens">Teens &amp; Young Adults</a>, <a href="/issues/transgender-rights">Transgender Rights</a>, <a href="/issues/schools">Youth and Schools</a>, <a href="/in-court/cases/ny_lambda-legal-v-doe-doj">Lambda Legal Defense and Education Fund, Inc. v. U.S. Department of Education and U.S. Department of Justice.</a>      </span>
+    </div>
+    
+  <div class="pager">
+    
+  <span class="freepager-previous">
+    <a href="/blog/20170828_lambda-legal-outserve-sldn-sue-trump-over-trans-military-ban" rel="prev">Previous Post</a>  </span>
+  <span class="freepager-next">
+    <a href="/blog/tx_20170817_farewell-sb3" rel="next">Next Post</a>  </span>
+  </div>
+  
+  <a name="disqus_thread"></a>
+  
+    
+</div>
+
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-ll-blog-blog-related"  >
+  
+        <h2 class="pane-title">
+      Related Posts    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-blog-related view-id-blog_related view-display-id-blog_related_1 v-blog-main-index view-dom-id-d998c9c058bf8cec841c0998f0a61c2a">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1"><a href="/blog/us_20211014_billie-jean-king-megan-rapinoe-layshia-clarendon-brianna-turner-join-more-than-150-athletes-womens-national-basketball-players-association-in-supporting-trans-youth-in-sports">
+<div class="field-content"><img typeof="foaf:Image" src="https://www.lambdalegal.org/sites/default/files/styles/blog_related/public/shutterstock_1100557307.jpg?itok=dFL8gKHu" width="270" height="180" alt="" /></div><h2 class="title"><a href="/blog/us_20211014_billie-jean-king-megan-rapinoe-layshia-clarendon-brianna-turner-join-more-than-150-athletes-womens-national-basketball-players-association-in-supporting-trans-youth-in-sports">Billie Jean King, Megan Rapinoe, Layshia Clarendon, and Brianna Turner join more than 150 Athletes and the Women’s National Basketball Players Association in Supporting Trans Youth Participation in Sports</a></h2></a>
+</li>
+          <li class="views-row views-row-2"><a href="/blog/fain_wv_20210923_ll-adds-two-additional-trans-plaintiffs-to-challenge-to-wv-ban-on-health-care-coverage">
+<div class="field-content"><img typeof="foaf:Image" src="https://www.lambdalegal.org/sites/default/files/styles/blog_related/public/fainplaintiffheader-b.jpeg?itok=L4GiyRB4" width="270" height="180" alt="" /></div><h2 class="title"><a href="/blog/fain_wv_20210923_ll-adds-two-additional-trans-plaintiffs-to-challenge-to-wv-ban-on-health-care-coverage">Lambda Legal Add Two Additional Transgender Plaintiffs to its Challenge to West Virginia’s Unlawful Ban On Health Care Coverage</a></h2></a>
+</li>
+          <li class="views-row views-row-3"><a href="/blog/kadel_nc_20210901_-fourth-circuit-rules-nc-can-be-sued-for-violating-aca-over-discriminatory-anti-trans-state-employee-health-care-plan">
+<div class="field-content"><img typeof="foaf:Image" src="https://www.lambdalegal.org/sites/default/files/styles/blog_related/public/kadelmax_03.jpg?itok=7yDI2RPt" width="270" height="180" alt="Max Kadel" /></div><h2 class="title"><a href="/blog/kadel_nc_20210901_-fourth-circuit-rules-nc-can-be-sued-for-violating-aca-over-discriminatory-anti-trans-state-employee-health-care-plan">VICTORY! Fourth Circuit Rules North Carolina Can Be Sued for Violating the Affordable Care Act Over Discriminatory Anti-Transgender State Employee Health Care Plan</a></h2></a>
+</li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+<div id="block-locale-language" class="block block-locale">
+
+    
+  <div class="content">
+    <ul class="language-switcher-locale-url"><li class="en first last active"><a href="/blog/ny_20170823_lambda-legal-sues-under-foia" class="language-link active" xml:lang="en">English</a></li>
+</ul>  </div>
+</div>
+  </div>
+              </div></div> <!-- /.section, /#content -->
+
+      
+      
+    </div></div> <!-- /#main, /#main-wrapper -->
+
+    <div id="footer-wrapper"><div class="section">
+	    <div id="footer-first"><div class="section">
+			    <div class="region region-footer-first">
+    <div id="block-site-footer-menu" class="block block-site">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first expanded"><a href="/about-us">About Us</a><ul class="menu"><li class="first leaf"><a href="/about-us/history" title="">History</a></li>
+<li class="leaf"><a href="/about-us/financial" title="">Annual Reports</a></li>
+<li class="leaf"><a href="/about-us/contact-us" title="">Contact Us</a></li>
+<li class="last leaf"><a href="/about-us/staff" title="">Our Team</a></li>
+</ul></li>
+<li class="expanded"><a href="http://www.lambdalegal.org/all">Resources</a><ul class="menu"><li class="first leaf"><a href="http://www.lambdalegal.org/help">Legal Help Desk</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/know-your-rights">Know Your Rights</a></li>
+<li class="leaf"><a href="/states-regions/in-your-state">State Laws</a></li>
+<li class="leaf"><a href="/in-court/cases">Cases</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/in-court/legal-docs">Legal Documents</a></li>
+<li class="last leaf"><a href="https://www.lambdalegal.org/all">Publications</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.lambdalegal.org/news-press">News</a><ul class="menu"><li class="first leaf"><a href="http://www.lambdalegal.org/media-center">Media Center</a></li>
+<li class="leaf"><a href="/blog">Blog</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/publications/impact">Impact Magazine</a></li>
+<li class="leaf"><a href="https://www.youtube.com/user/lambdalegal">Video</a></li>
+<li class="last leaf"><a href="https://medium.com/lambdalegal">Medium</a></li>
+</ul></li>
+<li class="last expanded"><a href="/ways-to-give" title="">Ways to Give</a><ul class="menu"><li class="first leaf"><a href="http://support.lambdalegal.org/site/Donation2?df_id=6680&amp;mfc_pref=T&amp;6680.donation=form1">Donate Now</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/donate">Monthly Giving</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/events/search/type/fundraisers">Events</a></li>
+<li class="leaf"><a href="http://www.lambdalegal.org/liberty-circle">Liberty Circle</a></li>
+<li class="leaf"><a href="https://secure3.convio.net/lambda/site/Donation2?df_id=6181&amp;6181.donation=form1">Renew Membership</a></li>
+<li class="leaf"><a href="http://www.lambdalegal.org/legacy">Estate &amp; Planned Giving</a></li>
+<li class="leaf"><a href="/ways-to-give/employer-matching-gifts">Employer Matching Gifts</a></li>
+<li class="leaf"><a href="/ways-to-give/stock-gifts">Stock Gifts</a></li>
+<li class="leaf"><a href="http://support.lambdalegal.org/site/Donation2?df_id=7801&amp;mfc_pref=T&amp;7801.donation=form1">Honor &amp; Memorial Giving</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/ways-to-give/wedding-registry">Wedding &amp; Celebration Registry</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/about-us/sponsors">Corporate &amp; Law Firm Sponsorships</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/national-sponsorship">National Sponsorship</a></li>
+<li class="leaf"><a href="https://www.lambdalegal.org/volunteer">Volunteer</a></li>
+<li class="last leaf"><a href="https://shop.lambdalegal.org/">Shop</a></li>
+</ul></li>
+</ul>  </div>
+</div>
+  </div>
+    	
+	    </div></div> <!-- /.section, /#footer-first -->
+	    <div id="footer-second"><div class="section">
+			    <div class="region region-footer-second">
+    <div id="block-ll-newsletter-ll-newsletter-email-signup" class="block block-ll-newsletter">
+
+    <h2>Email Newsletter</h2>
+  
+  <div class="content">
+    <div id="footer-form"><form action="/blog/ny_20170823_lambda-legal-sues-under-foia" method="post" id="ll-newsletter-email-signup-form" accept-charset="UTF-8"><div><div class="group-1"><div class="form-item form-type-textfield form-item-cons-first-name">
+  <label for="edit-cons-first-name">First Name <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-cons-first-name" name="cons_first_name" value="" size="60" maxlength="50" class="form-text required" />
+</div>
+<div class="form-item form-type-textfield form-item-cons-last-name">
+  <label for="edit-cons-last-name">Last Name <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-cons-last-name" name="cons_last_name" value="" size="60" maxlength="50" class="form-text required" />
+</div>
+</div><div class="group-2"><div class="form-item form-type-textfield form-item-cons-zip-code">
+  <label for="edit-cons-zip-code">ZIP Code <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-cons-zip-code" name="cons_zip_code" value="" size="60" maxlength="10" class="form-text required" />
+</div>
+<div class="form-item form-type-textfield form-item-cons-phone">
+  <label for="edit-cons-phone">Phone Number <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-cons-phone" name="cons_phone" value="" size="60" maxlength="14" class="form-text required" />
+</div>
+</div><div class="group-1"><div class="form-item form-type-textfield form-item-cons-email">
+  <label for="edit-cons-email">Email Address <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-cons-email" name="cons_email" value="" size="60" maxlength="100" class="form-text required" />
+</div>
+<input type="submit" id="email-signup-form-id" name="op" value="Join Us" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-gdn245JolBkGCEF9x5NdEGxwSwQ8LM7GNnh36vmgxcA" />
+<input type="hidden" name="form_id" value="ll_newsletter_email_signup_form" />
+</div></form></div>  </div>
+</div>
+<div id="block-site-social-follow-us-home-page" class="block block-site">
+
+    <h2>Connect Online</h2>
+  
+  <div class="content">
+    <ul class="social-icons">
+      <li class="social-icons__facebook">
+        <a target="_blank" href="https://www.facebook.com/lambdalegal">
+          <span class="fa-stack">
+            <i class="fontello icon-circle fb"></i>
+            <i class="fontello icon-facebook stack-top"></i>
+          </span>
+        </a>
+      </li>
+      <li class="social-icons__twitter">
+        <a target="_blank" href="https://twitter.com/LambdaLegal">
+          <span class="fa-stack">
+            <i class="fontello icon-circle tw"></i>
+            <i class="fontello icon-twitter stack-top"></i>
+          </span>
+        </a>
+      </li>
+      <li class="social-icons__instagram">
+        <a target="_blank" href="https://www.instagram.com/lambdalegal/">
+          <span class="fa-stack">
+            <i class="fontello icon-circle tw"></i>
+            <i class="fontello icon-instagram stack-top"></i>
+          </span>
+        </a>
+      </li>
+      <li class="social-icons__youtube">
+        <a target="_blank" href="https://www.youtube.com/user/lambdalegal">
+          <span class="fa-stack">
+            <i class="fontello icon-circle"></i>
+            <i class="fontello icon-youtube stack-top"></i>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+  </div>
+	    </div></div> <!-- /.section, /#footer-second -->
+		</div></div> <!-- /.section, /#footer-wrapper -->
+
+    <div id="footer-lower"><div class="section">
+        <div class="region region-footer-lower">
+    <div id="block-menu-menu-footer" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="http://www.lambdalegal.org/privacy-policy">Privacy Policy</a></li>
+<li class="last leaf"><a href="/about-us/contact-us">Contact Us</a></li>
+</ul>  </div>
+</div>
+<div id="block-block-2" class="block block-block">
+
+    
+  <div class="content">
+    <p>Lambda Legal   |   <a href="https://maps.google.com/maps?q=120+Wall+Street,+19th+Floor,+New+York,+NY+10005">120 Wall Street, 19th Floor, New York, NY 10005</a>   |   P - <a href="http://tel:2128098585">212-809-8585</a></p>
+  </div>
+</div>
+  </div>
+    </div></div> <!-- /.section, /#footer-lower -->
+
+  </div></div> <!-- /#page, /#page-wrapper -->
+  
+  <!-- Start ZD-22454 -->
+  <script>
+  window.addEventListener('load',function(){
+  jQuery('li [href="https://www.lambdalegal.org/donate"]:eq(0)').click(function(){
+  		jQuery('body').append('<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1031825624/?label=KbGaCOS4tXIQ2NGB7AM&amp;guid=ON&amp;script=0"/>');
+  });
+  jQuery('#donate-form-access-button').click(function(){
+  		jQuery('body').append('<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1031825624/?label=PABQCIW5tXIQ2NGB7AM&amp;guid=ON&amp;script=0"/>');
+  });
+  });
+  var x = 0;
+  var myVar = setInterval(function(){
+    if(x == 0){
+      if(jQuery('#pledge-form-thank-you').length > 0)
+      {
+          jQuery('body').append('<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1031825624/?label=gch_CPO4tXIQ2NGB7AM&amp;guid=ON&amp;script=0"/>');
+          clearInterval(myVar);
+          x = 1;
+      }
+    }
+  }, 1000);
+  </script>
+  <!-- End ZD-22454 -->
+  
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"ba75a8c102","applicationID":"67245543","transactionName":"YQEAY0BXWUVQARILClhLI1RGX1hYHhIHBQBpCQNZU1FSRG4MCQYAaRILUkVpR1dWBw==","queueTime":0,"applicationTime":776,"atts":"TUYDFQhNSks=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>

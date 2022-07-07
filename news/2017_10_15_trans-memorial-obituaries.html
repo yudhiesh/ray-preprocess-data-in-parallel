@@ -1,0 +1,4892 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html lang="en" class="ie8 lte8 lte9 lte10">    <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie9 lte9 lte10">    <![endif]-->
+<!--[if (gt IE 9)]><!--><html lang="en"><!--<![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <title>Rest in power | The FADER</title>
+
+    
+
+    <link rel="preload" href="/assets/v4/fonts/WF-026510-009147-001369-72bfbb4d7f1c28b438ff5b8dc078cb9f02e5c71319a3527d3e1613cf5b01f239.woff" as="font" type="woff">
+
+    <link rel="preload" href="/assets/v4/fonts/WF-026510-009147-001253-92cefcf9f8425db3674eebf29535da3cf73f87dc6b7439938ad4294948f67e79.woff" as="font" type="woff">
+
+    <link rel="preload" href="/assets/v4/fonts/WF-026510-009147-001251-120b5b64b0a75ece4fc07a97e9428b5ca6966de319ece24962ab503fe110b1d7.woff" as="font" type="woff">
+
+    <link rel="preload" href="/assets/v4/fonts/WF-026510-009147-001255-a8b63253d5e7e8012e025435f7b546f7600bc376c3f5d279b6b71e52d0eaaa52.woff" as="font" type="woff">
+
+
+  <link rel="stylesheet" media="all" href="/assets/application-133e7e190e45ac4120b1c5ba4461d6ad07c81534e13d007be9ec674e1ea8fae4.css" />
+  <!-- <style> -->
+  <!-- </style> -->
+
+
+    <script>addEventListener('error', window.__e=function f(e){f.q=f.q||[];f.q.push(e)});</script>
+
+    <script>
+ var oVa = {};
+ var oDv = ["44"];
+
+ window.rtkGPTSlotsTargeting = [];
+ window.rtkGPTSlotsTargeting.push([]);
+
+ window.rtkGPTSlotsTargeting.push({});
+
+
+ var optimeratag = optimeratag || {};
+ optimeratag.cmd = optimeratag.cmd || [];
+
+ /* optimeratag.cmd.push(function() { alert("test"); });
+  * optimeratag.cmd.push(function() { alert("test2"); }); */
+
+ function onOptimeraOpsLoaded() {
+   console.log("onOptimeraOpsLoaded");
+   window.optimeraOpsLoaded = true;
+   window.executeOptimeraOpsCmd();
+ }
+
+ function executeOptimeraOpsCmd() {
+   for (k=0; k < optimeratag.cmd.length;k++){
+     optimeratag.cmd[k]();
+   }
+   optimeratag.cmd.length = 0;
+ }
+
+ optimeratag.cmd.push = function(e) {
+   Array.prototype.push.apply(this,arguments);
+   if (window.optimeraOpsLoaded) {
+     window.executeOptimeraOpsCmd();
+   }
+ }
+
+ /* optimeratag.cmd.push(function() { alert("test3"); }); */
+
+</script>
+
+
+    <script>
+     function createCookie(o,e,n){if(n){var t=new Date;t.setTime(t.getTime()+24*n*60*60*1e3);var i="; expires="+t.toGMTString()}else var i="";document.cookie=o+"="+e+i+"; path=/"}function readCookie(o){for(var e=o+"=",n=document.cookie.split(";"),t=0;t<n.length;t++){for(var i=n[t];" "==i.charAt(0);)i=i.substring(1,i.length);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return null}function eraseCookie(o){createCookie(o,"",-1)}function refreshInitalGPTAds(){console.debug("CONSENT DEBUG: refreshInitalGPTAds"),timeoutID=window.setTimeout(function(){for(var o in window.ad_slots)value=window.ad_slots[o],console.log("refreshing slot: ",value),googletag.pubads().refresh([value])},100)}function setGPTNonPersonalizedAds(){console.log("CONSENT DEBUG: setGPTNonPersonalizedAds"),googletag.pubads().setPrivacySettings({restrictDataProcessing:!0}),googletag.pubads().setRequestNonPersonalizedAds(1)}function setGPTPersonalizedAds(){console.log("CONSENT DEBUG: setGPTPersonalizedAds"),googletag.pubads().setPrivacySettings({restrictDataProcessing:!1}),googletag.pubads().setRequestNonPersonalizedAds(0)}function setJITANonPersonalizedAds(){console.debug("CONSENT DEBUG: setJITANonPersonalizedAds"),window.JITA&&jitaJS.que.push(function(){JITA.setRequestNonPersonalizedAds(1)})}function setJITAPersonalizedAds(){console.debug("CONSENT DEBUG: setJITAPersonalizedAds"),window.JITA&&jitaJS.que.push(function(){JITA.setRequestNonPersonalizedAds(0)})}function setEUConsentCookie(){window.__cmp("getConsentData",null,function(o){document.cookie="EUCONSENT="+o.consentData})}function getDivID(o,e){return void 0==window.ad_slot_positions[o]&&(window.ad_slot_positions[o]=1),e?(divID=o+window.ad_slot_positions[o],document.getElementById(o).id=divID):divID=o,window.ad_slot_positions[o]+=1,divID}function displayAdSlot(o,e,n,t){console.debug("AD DEBUG: displaying slot: "+e+" "+o);var i=getDivID(o,t);return window.enable_optimera&&(window.oDv.push(i),window.oVa[i]=["NULL"]),googletag.cmd.push(function(){var t=googletag.defineSlot("/1081121/"+e,n,i).addService(googletag.pubads());window.enable_optimera&&t.setTargeting("optimera",oVa[i]),window.ad_slots[o]=t,googletag.display(i),googletag.pubads().refresh([t])}),i}function pushAdSlot(o,e,n){var t=(new Date).getTime(),i=o+"-"+t;document.getElementById(o).attr=i,window.ad_slots_queue[i]=e,googletag.cmd.push(function(){var o=googletag.defineSlot("/1081121/"+e,n,i).addService(googletag.pubads());window.ad_slots_queue[i]=o})}function setupRtkAdObserver(o){window.rtk_ad_ids_to_setup.includes(o)||window.rtk_ad_ids_to_setup.push(o)}function setupRtkTimerAd(o){window.rtk_timer_ad_ids.includes(o)||window.rtk_timer_ad_ids.push(o),window.rtk_is_serving_ad[o]=!1,window.rtk_first_render[o]=!0}function setupRtkGPTSlotsTargeting(o,e){if(window.enable_optimera){window.oDv.push(e);var n={};n[e]=[],console.log(n),window.rtkGPTSlotsTargeting.push(n),console.log(window.rtkGPTSlotsTargeting)}}function setupRtkOptimera(){console.log("setupRtkOptimera"),window.oVa={"div-above-latest-ad":["A6"],"div-above-latest-ad9":["A6"],"div-below-fold-latest-ad":["A6"],"div-full_width-ad":["D4"],"div-leaderboard-ad":["D4"],t:1568146740}}function setupRtkAdSlotForOptimera(o,e){console.log("setupAdSlotForOptimera",o,e);var n=o;if(window.ad_slot_to_div_map[n]=e,window.enable_optimera){window.oDv.push(n);var t="/1081121/"+e;window.rtkGPTSlotsTargeting[1][t]=[["Optimera",window.oVa[n]]]}}function displayRtkAdSlot(o,e,n,t,i){console.log("displayRtkAdSlot",o,e,n,t,i);var d=getDivID(e,t);return console.log("divID: ",d),window.ad_slot_to_div_map[d]=n,window.ad_div_to_rtk_id_map[d]=o,window.enable_optimera&&window.oDv.push(d),jitaJS.que.push(function(){var e="/1081121/"+n;window.enable_optimera&&(window.rtkGPTSlotsTargeting[1][e]=[["Optimera",window.oVa[d]]]);var t={};t[o]=d,i?window.rtk_is_lazy_ad[d]=!0:(window.rtk_is_lazy_ad[d]=!1,jitaJS.rtk.refreshAdUnits([o],!1,t)),window.enable_optimera&&window.oPageUnload(d)}),d}window.addEventListener("CookiebotOnDialogDisplay",function(o){console.debug("CONSENT DEBUG: onLoad"),window.cookieConsent=window.CookieConsent},!1),window.addEventListener("CookiebotOnAccept",function(o){console.debug("CONSENT DEBUG: onAccept"),setEUConsentCookie(),Cookiebot.consent.marketing?(console.debug("CONSENT DEBUG: marketing accepted"),"EU"==window.consent_region&&(setGPTPersonalizedAds(),setJITAPersonalizedAds())):(console.debug("CONSENT DEBUG: marketing not accepted"),setGPTNonPersonalizedAds(),setJITANonPersonalizedAds())},!1),window.addEventListener("CookiebotOnDecline",function(o){console.debug("CONSENT DEBUG: declined"),"US-CA"==window.consent_region?(setGPTNonPersonalizedAds(),setJITANonPersonalizedAds()):"EU"==window.consent_region&&(console.debug("CONSENT DEBUG: EU Allow Preferences"),setEUConsentCookie(),Cookiebot.consent.marketing&&(console.debug("CONSENT DEBUG: Allow Personalized Ads"),setGPTPersonalizedAds(),setJITAPersonalizedAds()))},!1),window.ad_slot_positions={},window.ad_slots={},window.ad_slots_queue={},window.rtk_ad_ids_to_setup=[],window.rtk_ad_ids=[],window.rtk_timer_ad_ids=[],window.rtk_is_serving_ad={},window.rtk_is_lazy_ad={},window.rtk_first_render={},window.enable_optimera=!1,window.ad_slot_to_div_map={},window.ad_div_to_rtk_id_map={};
+    </script>
+
+      <base href="/">
+      <script src="/assets/application_article_desktop-ab68fc7e412676113640bf88b8ff1409244cb72d94ff1b159cd690ef442361eb.js" defer="defer"></script>
+
+    <script src="/packs/application-a81bf44df566d987e3f4.js" defer="defer"></script>
+
+
+    
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="54d53806-8669-46a4-9f8a-37d954230eb4" type="text/javascript" data-framework="IAB" async></script>
+    <script>
+     window.consent_region = 'EU';
+    </script>
+
+<script>
+ window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+ console.log("GA: command queue initialized.");
+</script>
+
+  <script>
+
+   ga("create", "UA-272695-2", "auto", { useAmpClientId: true });
+   ga("set", "anonymizeIp", true);
+   ga("set", "transport", "beacon");
+
+   if (window.location.pathname === "home") {
+     ga("set", "page", "/");
+   }
+
+   console.log("GA: tracker setup.");
+
+   
+      ga('set', 'dimension1', "Myles Tanzer");
+
+    ga('set', 'dimension2', 'Culture');
+    ga('set', 'dimension3', 'Features');
+    ga('set', 'dimension14', 'custom');
+
+
+    /* ga('send', 'pageview'); */
+    console.log("GA: ran ga_pre_pageview_hook");
+
+
+
+  </script>
+
+    <script type="text/javascript" data-cookieconsent="necessary" async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+<script src="/packs/ga_autotrack-8295c9a72a7bd99fba1a.js" async="async"></script>
+
+
+<script type='text/javascript'>
+ googletag = googletag || {};
+ var googletag = googletag;
+ googletag.cmd = googletag.cmd || [];
+
+ (function() {
+   var gads = document.createElement('script');
+   gads.async = true;
+   gads.type = 'text/javascript';
+   var useSSL = 'https:' == document.location.protocol;
+   gads.src = (useSSL ? 'https:' : 'http:') + 
+              '//www.googletagservices.com/tag/js/gpt.js';
+   var node = document.getElementsByTagName('script')[0];
+   node.parentNode.insertBefore(gads, node);
+ })();
+</script>
+
+
+<script type='text/javascript'>
+
+   googletag.cmd.push(function() {
+
+     // Infinite scroll requires SRA
+     googletag.pubads().enableSingleRequest();
+
+     // Disable initial load, we will use refresh() to fetch ads.
+     // Calling this function means that display() calls just
+     // register the slot as ready, but do not fetch ads for it.
+     googletag.pubads().disableInitialLoad();
+
+     var params={};
+     window.location.search
+           .replace(/[?&]+([^=&]+)=([^&]*)/gi,
+                    function(str,key,value) {
+                      params[key.toLowerCase()] = value;
+                    }
+           );
+
+     for (var k in params){
+       if(k.indexOf("utm") === 0)
+       {
+         googletag.pubads().setTargeting(k,params[k]);
+       }
+     }
+
+     /* googletag.pubads().enableLazyLoad({
+      *   fetchMarginPercent: 0,  // Fetch slots within 1 viewports.
+      *   renderMarginPercent: 0,  // Render slots within 1 viewports.
+      *   mobileScaling: 1.0
+      * });*/
+
+       googletag.enableServices();
+
+     if (window.consent_region == "EU") {
+       if (readCookie("forbid_personalized_ads") == "0") {
+         setGPTPersonalizedAds();
+       } else {
+         setGPTNonPersonalizedAds();
+       }
+     }
+
+     if (window.consent_region == "US-CA") {
+       if (readCookie("forbid_personalized_ads") == "1") {
+         setGPTNonPersonalizedAds();
+       }
+     }
+
+   });
+
+  </script>
+
+<script type="text/javascript">
+ //declare this in the head before jita
+ var jitaJS = window.jitaJS || {};
+ jitaJS.que = jitaJS.que || [];
+</script>
+
+
+
+
+    <script>
+
+     //Do not fetch bids for these ad units
+     window.rtkLazyAdUnitCodes = [
+       'RTK_oCtg', 'RTK_to1u', 'RTK_EgfK'
+     ];
+
+     if (window.consent_region == "EU") {
+       if (readCookie("forbid_personalized_ads") == "0") {
+         setJITAPersonalizedAds();
+       } else {
+         setJITANonPersonalizedAds();
+       }
+     }
+
+     if (window.consent_region == "US-CA") {
+       if (readCookie("forbid_personalized_ads") == "1") {
+         setJITANonPersonalizedAds();
+       }
+     }
+
+    </script>
+
+
+      <script async type="text/javascript" src="//d2x8vi6rvjt2hb.cloudfront.net/script.js"></script>
+
+      <script type="text/javascript" src="//533.hostedprebid.com/tZzh/q1Ma_Ofns_GQLl_saSr_YrJj_GPkh_Oel5_oCtg_to1u_EgfK/jita.js?dfp=1" async></script>
+
+
+
+
+
+  <!-- Begin comScore Tag -->
+<script>
+ var _comscore = _comscore || [];
+ _comscore.push({ c1: "2", c2: "16442793" });
+ (function() {
+   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+   s.async = true;
+   /* s.defer = true; */
+   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+   el.parentNode.insertBefore(s, el);
+ })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16442793&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+  <!-- Quantcast Tag, part 1 -->
+<script type="text/javascript">
+ var _qevents = _qevents || [];
+ (function() {
+   var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+            + ".quantserve.com/quant.js";
+   /* elem.async = true; */
+   elem.defer = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);  
+ })();
+</script>
+
+  <script>window.twttr = (function(d, s, id) {
+   var js, fjs = d.getElementsByTagName(s)[0],
+       t = window.twttr || {};
+   if (d.getElementById(id)) return t;
+   js = d.createElement(s);
+   js.id = id;
+   js.src = "https://platform.twitter.com/widgets.js";
+   fjs.parentNode.insertBefore(js, fjs);
+
+   t._e = [];
+   t.ready = function(f) {
+     t._e.push(f);
+   };
+
+   return t;
+ }(document, "script", "twitter-wjs"));</script>
+
+  <!-- <script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script> -->
+
+<script async src="//platform.instagram.com/en_US/embeds.js"></script>
+
+  <!-- Facebook Pixel Code -->
+<meta name="facebook-domain-verification" content="8hp7106emaf67czjp03ks61b6zky1h" />
+
+  <script type="text/plain" data-cookieconsent="marketing">
+
+ !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                                                             n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+   n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);
+   t.async=!0;
+   /* t.defer=!0; */
+   t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+                                                                          document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+ fbq('init', '974085915995561');
+ fbq('track', "PageView");
+ fbq('track', 'ViewContent');
+
+</script>
+
+<!-- End Facebook Pixel Code -->
+
+  <!-- Snap Pixel Code -->
+
+  <script type="text/plain" data-cookieconsent="marketing">
+
+ (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+ {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+   a.queue=[];var s='script';r=t.createElement(s);
+   r.async=!0;
+   /* r.defer=!0; */
+   r.src=n;var u=t.getElementsByTagName(s)[0];
+   u.parentNode.insertBefore(r,u);})(window,document,
+                                     'https://sc-static.net/scevent.min.js');
+
+ snaptr('init', '878796fa-7274-4329-a6c6-814d66a40ae9', {
+   'user_email': '__INSERT_USER_EMAIL__'
+ });
+
+ snaptr('track', 'PAGE_VIEW');
+
+</script>
+<!-- End Snap Pixel Code -->
+
+<script>
+  // Load the SDK asynchronously
+  (function (d, s, id) {
+  var js, sjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://sdk.snapkit.com/js/v1/create.js";
+  sjs.parentNode.insertBefore(js, sjs);
+  }(document, 'script', 'snapkit-creative-kit-sdk'));
+
+  window.snapKitInit = function () {
+  snap.creativekit.initalizeShareButtons(
+  document.getElementsByClassName('snapchat-share-button')
+  );
+  };
+</script>
+
+  
+
+  <script type="text/javascript">
+ window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);
+ ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"6d9e668b2f",applicationID:"33213879",sa:1}
+</script>
+
+  <script>!function(n){if(!window.cnxps){window.cnxps={},window.cnxps.cmd=[];var t=n.createElement('iframe');t.display='none',t.onload=function(){var n=t.contentWindow.document,c=n.createElement('script');c.src='//cd.connatix.com/connatix.playspace.js',c.setAttribute('async','1'),c.setAttribute('type','text/javascript'),n.body.appendChild(c)},n.head.appendChild(t)}}(document);</script>
+
+
+
+
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="R7/kj1apKCsZZPINXwSzoqXIpnKbBVcyScc8UA9mxJERxwhJlbiAqpFJTnsN9go5e5FE4IWC6pOGw3ftEB17IA==" />
+
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<meta name="msvalidate.01" content="CFDCCD68D11A9B3C2CE7EE854D821682" />
+
+<meta itemprop="name" content="The FADER">
+
+  
+
+
+
+    <link rel="canonical" href="https://www.thefader.com/2017/10/15/trans-memorial-obituaries" />
+
+      <link rel="amphtml" href="https://www.thefader.com/2017/10/15/trans-memorial-obituaries/amp" />
+
+    
+  <meta name="description" content="So far in 2017, 21 trans people have been reported as murdered. These are their life stories."/>
+  <meta itemprop="description" content="So far in 2017, 21 trans people have been reported as murdered. These are their life stories."/>
+
+
+<meta itemprop="url" content="https://www.thefader.com/2017/10/15/trans-memorial-obituaries" />
+
+<meta property="og:site_name" content="The FADER"/>
+<meta property="og:type" content="article" />
+
+  <meta property="og:title" content="Rest in power"/>
+
+<meta itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+  <meta itemprop="name" content="The FADER">
+</meta>
+
+<meta itemprop="description" property="og:description" content="So far in 2017, 21 trans people have been reported as murdered. These are their life stories."/>
+
+<meta property="og:url" content="https://www.thefader.com/2017/10/15/trans-memorial-obituaries" />
+
+
+
+
+
+  <meta itemprop="image" content="https://thefader-res.cloudinary.com/private_images/c_limit,w_1024/c_crop,h_512,w_983,x_0,y_0,f_auto,q_auto:eco/trans-memorial-obituaries_hd3swo/trans-memorial-obituaries_hd3swo.jpg">
+
+  <meta property="og:image" content="https://thefader-res.cloudinary.com/private_images/c_limit,w_1024/c_crop,h_512,w_983,x_0,y_0,f_auto,q_auto:eco/trans-memorial-obituaries_hd3swo/trans-memorial-obituaries_hd3swo.jpg"/>
+  <meta property="og:image:width" content="983" />
+  <meta property="og:image:height" content="512" />
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@thefader" />
+
+  <meta property="twitter:title" content="Rest in power" />
+
+<meta property="twitter:description" content="So far in 2017, 21 trans people have been reported as murdered. These are their life stories." />
+
+    <meta property="twitter:image" content="https://thefader-res.cloudinary.com/private_images/c_limit,w_1024/c_crop,h_512,w_983,x_0,y_0,f_auto,q_auto:eco/trans-memorial-obituaries_hd3swo/trans-memorial-obituaries_hd3swo.jpg"/>
+
+
+<meta property="twitter:url" content="https://www.thefader.com/2017/10/15/trans-memorial-obituaries" />
+
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+   "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"https://www.thefader.com/2017/10/15/trans-memorial-obituaries"
+    },
+  "headline": "Rest in power",
+  "url": "https://www.thefader.com/2017/10/15/trans-memorial-obituaries",
+  "image": "https://thefader-res.cloudinary.com/private_images/c_limit,w_1024/c_crop,h_512,w_983,x_0,y_0/w_1600,c_limit,f_auto,q_auto:eco/trans-memorial-obituaries_hd3swo/trans-memorial-obituaries_hd3swo.jpg",
+  "thumbnailUrl": "https://thefader-res.cloudinary.com/private_images/w_640,c_limit,f_auto,q_auto:eco/trans-memorial-obituaries_hd3swo/trans-memorial-obituaries.jpg",
+  "dateCreated": "2017-10-15T23:00:51Z",
+  "articleSection": "Culture",
+  "creator": "Myles Tanzer",
+  "keywords": ["Issue 111","Issue 111","News"],
+  "author": {
+    "@type": "Person",
+    "name": "Myles Tanzer"
+  },
+"datePublished": "2017-10-15T23:00:51Z",
+"dateModified": "2017-10-24T20:54:28Z",
+"publisher": {
+      "@type": "Organization",
+      "name": "The FADER",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thefader.com/assets/Fader_192x60-0bd22b53934f61a7ed7927114b787582d4689c5471b55111ab9139da93ac6eb8.png",
+        "width": "192",
+        "height": "60"
+      }
+}
+}
+</script>
+
+
+
+    
+
+
+  <script>
+   var nextPostIds = [106753,106279,105858,105057,105055,105051,104655,104170,102883,101771];
+   var recommendedPosts = []
+  </script>
+
+
+
+
+<meta property="fb:app_id" content="958226167632202" />
+<meta property="fb:pages" content="6815651902" />
+
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon-92c4359df9d4751a3cecb73ad563e741612d9ba66db5ac3990dc01102f891712.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-iphone6-88e2f4152e3eae0437539250e2b434643b3124517b9c09bf9797c8cc7c3c1282.png"/>
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-touch-ipad2_mini-c99e08f3604fc9ba6a1ea47c3faac77a572ff1a14ffeae68e7a35c0b49e8dafb.png"/>
+<link rel="apple-touch-startup-image" href="/assets/apple-touch-icon-92c4359df9d4751a3cecb73ad563e741612d9ba66db5ac3990dc01102f891712.png"/>
+
+<meta content="https://www.thefader.com/assets/Fader-1000x1000-red-8b97c464445944866c359a6e7cf78eba3c1c64e1dfe5293b092b7f04fbc7d743.png" property="snapchat:sticker" />
+<meta name="monetization" content="$ilp.uphold.com/ZQxzb4Ew4FxP" />
+
+
+  </head>
+
+  <body class="united_states">
+
+
+    <div class="main_wrapper" id='main_wrapper'>
+      <!-- HEADER -->
+
+  <!-- NEED TO CHECK IF WE ARE ON THE HOMEPAGE, if not, no war story -->
+<nav class="full">
+
+  <!-- only include war story/expanded nav if it is NOT a mobile device -->
+
+
+      <div class="expanded">
+        <div class="ad top-ad banner_ad">
+  
+  <div class="ad-container">
+    <div id='div-leaderboard-ad' class="ad-fixed">
+
+  <!-- <div id='div-leaderboard-ad' class="ad-fixed"> -->
+
+
+    <script>
+     displayRtkAdSlot("RTK_q1Ma", 'div-leaderboard-ad', 'fader_v3_article_top_728_90', false, true);
+
+     setupRtkAdObserver('div-leaderboard-ad');
+    </script>
+
+</div>
+
+  </div>
+
+      </div>
+
+
+
+    <div class="header_wrap gutter_left">
+      <a data-ga-event-category="Logo Nav" data-ga-event-action="click" data-ga-on="click" href="/home" class="logo_wrap">
+        <div class="logo "></div>
+      </a>
+      <form action='/search' method='GET' name='search_form' id='search_form' class="gutter_left" autocomplete="off" data-search='true'>
+  <input type='text' name='query' value='' placeholder="" id=''>
+</form>
+
+      <span class="icon_wrap search_wrap">
+        <div class="icon search_icon"></div>
+      </span>
+    </div>
+      </div>
+
+
+  <div class="main_nav ">
+    <div data-ga-event-category="Logo Nav" data-ga-event-action="click" data-ga-on="click" class="small_logo_wrap">
+      <a href="/home"><div class="small_logo"></div></a>
+    </div>
+    <div class="nav_inner_wrap">
+
+      <div id="verticals_nav" class="verticals_wrap" style="">
+        <ul class="verticals_links">
+
+            <li class="music " data-ga-event-category="Music Nav" data-ga-event-action="click" data-ga-on="click"><a id="music_nav_link" href="/music"><span>Music</span></a></li>
+            <li class="style " data-ga-event-category="Style Nav" data-ga-event-action="click" data-ga-on="click"><a id="style_nav_link" href="/style"><span>Style</span></a></li>
+            <li class="culture " data-ga-event-category="Culture Nav" data-ga-event-action="click" data-ga-on="click"><a id="culture_nav_link" href="/culture"><span>Culture</span></a></li>
+            <li class="culture " data-ga-event-category="Video Nav" data-ga-event-action="click" data-ga-on="click"><a id="video_nav_link" href="/fader-tv"><span>Video</span></a></li>
+        </ul>
+      </div>
+
+      
+      <div class="links_wrap ui_control_element" ui-toggle="Menu">
+        <div class="search_wrap">
+          <form action='/search' method='GET' name='search_form_small' id='search_form_small' class="gutter_left" autocomplete="off" data-search='true'>
+  <input type='text' name='query' value='' placeholder="" id=''>
+</form>
+
+          <div class="icon search_icon_sm"></div>
+        </div>
+        <div class="hamburger_wrap ui_control" ui-toggle="Menu" ui-toggle-el=".links_wrap">
+          <div class="hamburger"></div>
+        </div>
+        <ul class="links">
+          <li class="mobile_only accordion"><a class="gutter_left" href="#"><span>Feed</span><span class="mobile_only icon_arrow"></span></a>
+            <ul class="mobile_only mobile_filter">
+              <li><a class="active" href="?">All Posts</a></li>
+              <li><a href="/posts/featured">Featured Posts</a></li>
+              <li><a class="" href="/trending">Trending Posts</a></li>
+            </ul>
+          </li>
+
+          <li class="li_magazine " data-ga-event-category="Magazine Nav" data-ga-event-action="click" data-ga-on="click"><a id="magazine_nav_link" class="gutter_left" href="/magazine"><span>Magazine</span></a></li>
+          <li class="li_events " data-ga-event-category="Events Nav" data-ga-event-action="click" data-ga-on="click"><a id="events_nav_link" class="gutter_left" href="/events"><span>Events</span></a></li>
+          <li class="li_shop" data-ga-event-category="Shop Nav" data-ga-event-action="click" data-ga-on="click"><a class="gutter_left" target="_blank" id="shop_nav_link" href="https://shop.thefader.com/"><span>Shop</span></a></li>
+
+          <li class="li_socials">
+
+            <div class="social_links_wrap">
+              <a target="new" class="twitter" href="https://twitter.com/thefader" data-ga-event-category="Twitter Nav" data-ga-event-action="click" data-ga-on="click">Twitter</a>
+              <a target="new" class="facebook" href="https://www.facebook.com/thefader" data-ga-event-category="Facebook Nav" data-ga-event-action="click" data-ga-on="click">facebook</a>
+              <a target="new" class="youtube" href="https://www.youtube.com/user/TheFaderTeam?sub_confirmation=1" data-ga-event-category="Youtube Nav" data-ga-event-action="click" data-ga-on="click">youtube</a>
+              <a target="new" class="instagram" href="https://www.instagram.com/thefader/" data-ga-event-category="Instagram Nav" data-ga-event-action="click" data-ga-on="click">instagram</a>
+            </div>
+
+          </li>
+
+          <li>
+            <a href="http://www.thefader.com/home">
+              US Edition
+            </a>
+          </li>
+          
+          <li>
+            <a href="http://www.thefader.com/uk">
+              UK Edition
+            </a>
+          </li>
+
+            <li>
+              <a href="http://www.thefader.com/ca">
+                Canada Edition
+              </a>
+            </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class='nav_radio_wrap' style="display: none;">
+      <div class='nav_radio_controls'>
+        <ul><li class='prev'><span></span></li><li class='toggle'><span></span></li><li class='next'><span></span></li></ul>
+      </div>
+      <div class="icon_wrap radio_wrap ui_control ui_control_element" ui-toggle="faderRadio">
+        <div class="icon radio_icon"></div>
+        <div class="icon radio_icon_close"></div>
+      </div>
+    </div>
+
+    
+    
+
+    <div class="icon_wrap search_wrap ui_control " ui-toggle="collapsedSearch" ui-toggle-el=".collapsed_search">
+      <div class="icon search_icon_sm "></div>
+    </div>
+    
+  </div>
+  <!-- FOLLOW OVERLAY desktop -->
+  <div class="follow_overlay ui_control_element gutter_left gutter_right" ui-toggle="followOverlay">
+    <div class="icon_close"></div>
+    <h2 class="mono_heading size_28">Follow the Fader</h2>
+    <ul class="follow_links">
+      <li class="social twitter"><a class="twitter" target="_blank" href="https://twitter.com/thefader"></a></li>
+      <li class="social facebook"><a class="facebook" target="_blank" href="https://www.facebook.com/thefader"></a></li>
+      <li class="social youtube"><a class="youtube" target="_blank" href="http://www.youtube.com/user/TheFaderTeam?sub_confirmation=1"></a></li>
+      <li class="social pinterest"><a class="pinterest" target="_blank" href="https://www.pinterest.com/thefader/"></a></li>
+      <li class="social tumblr"><a class="tumblr" target="_blank" href="http://thefader.tumblr.com/"></a></li>
+      <li class="social instagram"><a class="instagram" target="_blank" href="http://instagram.com/thefader"></a></li>
+      <li class="social soundcloud"><a class="soundcloud" target="_blank" href="http://soundcloud.com/fadermedia"></a></li>
+      <li class="social spotify"><a class="spotify" target="_blank" href="http://open.spotify.com/app/thefader"></a></li>
+      <li class="social vsco"><a class="vsco" target="_blank" href="http://thefader.vsco.co/grid/1"></a></li>
+      <li class="social google"><a class="google" target="_blank" href="http://plus.google.com/+TheFADER"></a></li>
+      <li class="social RSS"><a class="rss" target="_blank" href="http://feeds.feedburner.com/TheFaderMagazine/"></a></li>
+    </ul>
+  </div>
+  <div class="collapsed_search ui_control_element gutter_left " ui-toggle="collapsedSearch" >
+    <div class="icon search_icon"></div>
+    <form action='/search' method='GET' name='search_form_small' id='search_form_small' class="gutter_left" autocomplete="off" data-search='true'>
+  <input type='text' name='query' value='' placeholder="" id=''>
+</form>
+
+    <div class='right_text'>
+      <span class='enter_to_search'>Press Enter to Search</span>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile_nav_wrapper">
+  <div class="links_wrapper">
+    <ul class="links">
+      <li><a class="gutter_left music " href="/music">Music</a></li>
+      <li><a class="gutter_left style " href="/style">Style</a></li>
+      <li><a class="gutter_left culture " href="/culture">Culture</a></li>
+      <li ><a class="gutter_left" href="/fader-tv"><span>Video</span></a></li>
+      <li  ><a class="gutter_left" href="/magazine"><span>Magazine</span></a></li>
+      <li ><a class="gutter_left" href="/events"><span>Events</span></a></li>
+      <li><a class="gutter_left" target="_blank" href="https://shop.thefader.com/"><span>Shop</span></a></li>
+      <li>
+        <a class="gutter_left" href="http://www.thefader.com/home">
+          US Edition
+        </a>
+      </li>
+      <li>
+        <a class="gutter_left" href="http://www.thefader.com/uk">
+          UK Edition
+        </a>
+      </li>
+
+        <li>
+          <a class="gutter_left" href="http://www.thefader.com/ca">
+            Canada Edition
+          </a>
+        </li>
+      
+      <!-- <li class="mobile_only ui_control" ui-toggle="faderRadio"><a class="gutter_left" href="#"><span>Fader Radio</span></a></li> -->
+      <!-- <li class="follow_mobile accordion mobile_only"><span class="gutter_left"><span>Follow the Fader</span><span class="mobile_only icon_arrow"></span></span> -->
+      <!--   <\!-- FOLLOW LINKS LIST MOBILE -\-> -->
+      <!--   <ul class="mobile_only mobile_follow"> -->
+      <!--     <li><a target="_blank" href="https://twitter.com/thefader">Twitter</a></li> -->
+      <!--     <li><a target="_blank" href="https://www.facebook.com/thefader">Facebook</a></li> -->
+      <!--     <li><a target="_blank" href="http://www.youtube.com/user/TheFaderTeam">Youtube</a></li> -->
+      <!--     <li><a target="_blank" href="https://www.pinterest.com/thefader/">Pinterest</a></li> -->
+      <!--     <li><a target="_blank" href="http://thefader.tumblr.com/">Tumblr</a></li> -->
+      <!--     <li><a target="_blank" href="http://instagram.com/thefader">Instagram</a></li> -->
+      <!--     <li><a target="_blank" href="http://soundcloud.com/fadermedia">Soundcloud</a></li> -->
+      <!--     <li><a target="_blank" href="http://open.spotify.com/app/thefader">Spotify</a></li> -->
+      <!--     <li><a target="_blank" href="http://thefader.vsco.co/grid/1">VSCO</a></li> -->
+      <!--     <li><a target="_blank" href="http://plus.google.com/+TheFADER">Google+</a></li> -->
+      <!--     <li><a target="_blank" href="http://feeds.feedburner.com/TheFaderMagazine/">RSS</a></li> -->
+      <!-- </ul> -->
+
+      <!-- </li> -->
+
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+<div class="main_content">
+  <div class="main_content_top">
+    
+
+
+
+<style>
+ .custom_share_buttons_top, .mobile_newsletter { display: none!important; }
+
+.custom-title, .custom-description, .rip, center { letter-spacing: 0.03em!important; font-family: 'Times'!important; color: #f9f4e3!important; background: #000!important; }
+
+.custom-title { font-size: 10vmax!important; line-height: 1em!important; }
+
+.custom-description, center { font-size: 32px!important; line-height: 1.125em!important; }
+.content { background: #000!important; }
+</style>
+
+<!-- ARTICLE TYPES: super_feature, feature, simple -->
+
+<section class="main article vertical_culture " data-page-type="article" data-article-id="87631" data-post-model-version="2" data-article-type="custom" data-ad-section-name="article">
+
+
+
+  <!-- <div id='div-below-fold-latest-ad'>
+       </div> -->
+
+
+                  <!--======= CUSTOM =======-->
+
+              <article id="article-87631" class="custom custom">
+
+
+
+
+    
+  <style>
+  </style>
+
+<div class="content_blocks">
+
+
+
+
+    
+<style>
+ #content_block-143250 {
+   background: #000000;
+   padding-bottom: 40px;
+ }
+
+</style>
+
+
+  <style>
+
+ #content_block-143250 {
+   background: #000000;
+   margin-bottom: 60px;
+ }
+
+ article.custom .custom-title, article.custom .custom-media .caption {
+   color: #f9f4e3;
+ }
+
+ article.custom .custom-attribution, article.custom .custom-attribution a {
+   color: #f9f4e3;
+ }
+
+ article.custom .content_block blockquote.pull_quote {
+   color: #f9f4e3;
+ }
+</style>
+
+<div id="content_block-143250" class="content_block flush title center_align">
+
+  <div class="content_inner_wrapper">
+
+    <div class="custom-title">
+      Rest in Power
+    </div>
+
+    <div class="custom-description">
+      So far in 2017, 21 trans people have been reported as murdered. There are likely many more whose deaths have been unreported or misreported. To honor their memories, we need to listen to their stories, understand the systems that oppressed them, and give them the respect they weren’t afforded in life.
+    </div>
+
+    <div class="custom-attribution">
+        <div class="author">
+    <span>
+      By <span class="credit_name"><a href="/contributor/myles-tanzer-1">Myles Tanzer</a>, <a href="/contributor/lorena-cupcake">Lorena Cupcake</a>, <a href="/contributor/gwen-smith">Gwen Smith</a>, <a href="/contributor/katelyn-burns">Katelyn Burns</a></span>
+  </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="custom-media">
+      <div class=" image center_align">
+
+          
+
+
+
+
+
+
+  <img
+    src="https://thefader-res.cloudinary.com/private_images/w_1440,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg"
+    srcset="https://thefader-res.cloudinary.com/private_images/w_220,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 220w,https://thefader-res.cloudinary.com/private_images/w_300,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 300w,https://thefader-res.cloudinary.com/private_images/w_400,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 400w,https://thefader-res.cloudinary.com/private_images/w_600,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 600w,https://thefader-res.cloudinary.com/private_images/w_750,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 750w,https://thefader-res.cloudinary.com/private_images/w_840,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 840w,https://thefader-res.cloudinary.com/private_images/w_960,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 960w,https://thefader-res.cloudinary.com/private_images/w_1260,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 1260w,https://thefader-res.cloudinary.com/private_images/w_1800,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 1800w,https://thefader-res.cloudinary.com/private_images/w_2400,c_limit,f_auto,q_auto:best/rip_fhqmz1/trans-memorial-obituaries.jpg 2400w,"
+    sizes="100vw"
+    alt="Rest in power"
+  />
+
+
+
+
+        
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+      <div class="custom_share_buttons_top " style="" %>
+        <div id="new_socials_bottom" class="new_socials_footer  ">
+
+  <a target=&quot;new&quot; href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.thefader.com%2F2017%2F10%2F15%2Ftrans-memorial-obituaries%3Futm_source%3Df%26utm_medium%3Dfb%26utm_campaign%3Dshare" class="new_social_footer_button facebook new_social_share_button" data-ga-event-category="Social Share" data-ga-event-label="Facebook" data-ga-on="click" data-ga-event-action="cilck">
+      <img class="" width="40" height="40" src="/assets/FDR_SocialSharing_Facebook-747312c39722d47504a80f02500b8d4ad2e36acf922bad1c83799db1bc77f605.png" alt="Fdr socialsharing facebook" />
+      <!-- <span>Share</span> -->
+  </a>
+
+  <a target=&quot;new&quot; href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.thefader.com%2F2017%2F10%2F15%2Ftrans-memorial-obituaries%3Futm_source%3Df%26utm_medium%3Dtw%26utm_campaign%3Dshare&amp;text=Rest in power&amp;via=thefader" class="new_social_footer_button twitter new_social_share_button" data-ga-event-category="Social Share" data-ga-event-label="Twitter" data-ga-on="click" data-ga-event-action="cilck">
+
+    <img class="" width="40" height="40" src="/assets/FDR_SocialSharing_Twitter-8d78f695280aa3f8a4461702c68e9fcbfd6042af1600c62d49fdec4b735fb57a.png" alt="Fdr socialsharing twitter" />
+    <!-- <span>Tweet</span> -->
+  </a>
+
+    <a class="new_social_footer_button snap new_social_share_button snapchat-share-button" data-share-url="https://www.thefader.com/2017/10/15/trans-memorial-obituaries?utm_source=snapchat&amp;utm_medium=web&amp;utm_campaign=share" data-ga-event-category="Social Share" data-ga-event-label="Snapchat" data-ga-on="click" data-ga-event-action="cilck">
+
+        <img class="" width="20" height="20" src="/assets/logo-snapchat-5f1563935ac089d0cf1773f642ddbfb6cdb16e8c4ac14fec95a3c11b6f963389.svg" alt="Logo snapchat" />
+        <!-- <span>Snap</span> -->
+    </a>
+
+</div>
+
+      </div>
+
+
+
+    
+<style>
+ #content_block-143244 {
+   background: #000000;
+   padding-bottom: 40px;
+ }
+
+ #content_block-143244,  #content_block-143244 blockquote.pull_quote, #content_block-143244 .img_caption .caption {
+   color: #f9f4e3;
+ }
+</style>
+
+
+  <div id="content_block-143244" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+
+
+
+      <div class="paragraph_wrapper center_align">
+
+
+
+
+
+
+          <p>
+            <center>Jamie Lee<br>Wounded Arrow</center><br /><i><center>Pine Ridge, South Dakota</center></i>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Jamie Lee Wounded Arrow, as she wrote herself on Facebook, “first took breath and blessed this world on January 20th, 1988 in the wonderful presence of family and friends in the town of Pine Ridge, South Dakota.” There were her loving and supportive parents Horace Wounded Arrow and Charlene Blackhorse; nine siblings; and many aunts, uncles, and cousins both in Pine Ridge and across the country.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            She went on to graduate from Pine Ridge High School and study social work at Oglala Lakota College. Near the time of her death, she was working at the 24-hour Five Star Call Centers in Sioux Falls, where she had been living for around six months.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            She was a proud member of the Sioux Falls Two-Spirit and Allies group. Though traditions vary from tribe to tribe, most First Nations cultures recognize a third gender. Two-Spiritedness is a modern umbrella term used to band together many Native people whose identity doesn’t fall within the constricts of binary gender essentialism, including transgender and transsexual people.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            It is believed that Jamie was at least acquainted with her killer, who was apprehended and remains in police custody. Video evidence shows him being let into Jamie’s apartment in the early morning hours of New Year’s Eve.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            News of Jamie’s passing provoked an outpouring of support. Childhood friends, far-flung relatives, coworkers and online acquaintances shared their memories on social media. Like most traditional funerals among Oglala Lakota, Jamie Lee’s wake and subsequent funeral took place in a large public meeting space to accommodate the entire community as they came to pray, grieve, and lay small tokens in the casket.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            In a custom passed down through generations, grieving Lakota families stay close to their loved one’s side, taking care to never leave the body alone. They provide a meal for visitors as well as a memento for everyone who attends to take home. As in life, Jamie was surrounded by so many; not just an individual, but an essential part of the fabric of a community and culture.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Lorena Cupcake</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Mesha Caldwell</center><br /><center><i>Canton, Mississippi</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Mesha Caldwell was a popular beautician and makeup artist with a talent for creating hairstyles in Crayola colors: curls the shade of burgundy wine, teal mermaid-style waves that tumbled down her back, a glossy purple bang falling over one eye. On her memorial Facebook page, a friend jokingly lamented her edges and implored Mesha to send updates about her hair down from heaven.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Canton, the city where Mesha lived, is about a half-hour drive up the Interstate 55 from Jackson, Mississippi state capital. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            She grew up surrounded by family and friends: her mother Shirley Caldwell, her brother Cedrick Caldwell, and her mother’s longtime friend Mary Young. She attended Canton High School and later graduated from Jackson State University.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “She always, always dressed like a girl,” Young told Mic earlier this year. “And as she grew up, she became beautiful just like a lady.” 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Mesha was likable, and had devoted friends like Evonne Kaho. “She was a happy person that loved everyone and never met a stranger,” her former roommate told the Clarion-Ledger. “For me, as a black transgender woman and the leader of the community, it’s a very hard pill to swallow.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kaho emphasizes the impact of stories like Mesha’s not just to the trans community, but society as a whole. “Each time a person of trans experience is killed or experiences violence against them, it is an assault against all of the ideals that we as a country stand for. The ideals of life, liberty and the pursuit of happiness. The freedom of being who we want to be and being entitled to do so without persecution.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Mesha didn’t bother nobody,” her mother Shirley Caldwell told reporters from Mississippi News Now. “Mesha had a good heart.” She and her son Cedrick, Mesha’s brother, implored the killer to turn themselves in so justice could be served.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            A vigil honoring Mesha took place in Smith Park in Jackson following her death. Attendees leaned against each other for warmth, sheltered from the January weather only by a ring of trees.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Mesha’s light, glitter, glamour, and kindness were remembered as mourners held bright burning candles. Loved ones, clutching the strings of balloons, let go: metallic pink hearts tumbled toward the sky, vanishing into the heavens.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Lorena Cupcake</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>JoJo Striker</center><br /><center><i>Toledo, Ohio</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            JoJo Striker lived in Toledo, a city in the northwest corner of Ohio dealing with the same post-industrial ruin that has blighted nearby Detroit; both cities border Lake Erie, a massive body of water. In one photo posted to Facebook, JoJo can be seen strolling along the lakefront; posing for the camera with her lips pursed, her hoop earrings shimmer against her dark curtain of hair.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Here in Toledo, we have an enormous ignorance when it comes to trans people,” local activist Phaylen Fairchild explained during a phone conversation. “It’s a very dangerous place for trans people.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            On February 8, 2017, 23-year-old JoJo was found in an empty garage on the north side of the city. Her killer had ended her life with a single bullet. Police were unable to determine a suspect or motive, and the case remains unsolved.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Fairchild was the first person to discover that a local news station was reporting on JoJo’s murder using her birth name. “I noticed that the way that they referenced JoJo was distinctively different from how she represented herself. They knew that she was transgender, and they proceeded to misgender her.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Because she was a woman of color, they tried to bring up her past criminal history,” Fairchild continues. “This is what trans women of color deal with every single solitary day. More often than not, when we lose a member of our community to violence, this is how the media responds.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Shanda Striker had not spoken to her daughter in the year previous to the murder. Her relationship with her middle child had been complicated by deeply held religious beliefs, and early news reports featured her using male pronouns and JoJo’s given first name. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Fairchild had the opportunity to observe the family’s path to acceptance when JoJo’s aunt Patrice reached out to thank her for calling attention to how local media was mistreating the memory of her niece.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “They’ve been so much more supportive of the trans community after JoJo,” she explained toward the end of our call. “They’re a great group of people who shouldn’t be defined by comments in the media. They’ve rallied behind the memory of JoJo, and in honoring her, honor our entire community.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Lorena Cupcake</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Keke Collier</center><br /><center><i>Chicago, Illinois</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            24-year-old Keke Collier faced barriers on her road to steady employment. Illinois leads the nation in scarcity for job options for black adults, who have an unemployment rate double the state’s overall rate. In addition, she was forced to apply for jobs under a legal name that did not match her gender presentation.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            She persevered despite these obstacles, asking friends (who also knew her as Tiara Richmond) to wish her luck when she landed an interview with the fast food chain Chipotle, and posting selfies as she traveled to job interviews on the local El train.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Keke had been deeply affected by the passing of her mother, who she referred to as the “best mother in the world,” in March 2015. Holidays were especially difficult; she often took to Facebook to express her grief, sometimes addressing her messages directly to her mother’s spirit or God’s ear. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Local activist Shasha Lauren, who works as a peer navigator at social service agency Chicago House, said earlier this year in an interview with Mic that witnesses saw Collier get into a car with a man who later shot her in the South Side Chicago neighborhood of Englewood.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Early Facebook posts from community members referred to the incident as a “bad date” — a term used by sex workers to describe violence, sexual assaults, and robberies experienced while working.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            A 2009 study of trans women in Los Angeles and Chicago found that 67 percent of participants had engaged in sex work. The National Transgender Discrimination Survey found that trans people of color were significantly more likely to engage in sex work than their white counterparts, which aligns with other data from the NTDS that shows that trans people of color experience higher rates of poverty, homelessness, and incarceration than the general population.<br />Despite the assistance offered by Chicago-based organizations like the Transformative Justice Law Project, which seeks to guide people through legal name changes and petitions to reduce the hefty associated fees, the process can be time-consuming. The barriers to access for women like Keke Collier have wide-spanning repercussions, from a measurable effect on economic earnings during their lifetime to being misgendered in police reports after death.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            In a photo posted to Facebook, Keke can be seen posing in front of Alexander Calder’s iconic Flamingo sculpture, hand perched on her cocked hip. Less than two weeks after her passing, The Trans Liberation Protest marched through downtown Chicago armed with trans pride flags, glittered wigs, and megaphones. The concourse of activists and allies settled into Federal Plaza, where the crowd chanted her name in the shadow of the same bright red sculpture.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Lorena Cupcake</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center> Jaquarrius Holland</center><br /><center><i>Monroe, Louisiana</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Jaquarrius Holland had style, the innate charisma that exists separately from the ephemeral trends of fashion. Whether she wore her hair long or short, she carried her body with the assurance of a contestant on America’s Next Top Model: peeking over one shoulder in photos, lips first pursed and then pulled into an amused smile. She always applied a dramatic set of lashes to her dark eyes, prompting her good friend Chesna Littleberry to nicknamed her “Eyelash Queen.” 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            In photos posted to Facebook, she sometimes paired a skintight, cherry red crop top with red pants splashed with Mickey Mouse logos and high-top adidas, or crowned a casual tie-dye and denim ensemble with a bucket hat printed with emoji, showing her love of color coordination and pattern.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            At the age of 18 and no longer living with her parents, Jaquarrius was housing-insecure and often stayed with Littleberry or other friends. One study on male-to-female (MTF) transgender youth from communities of color found that 46 percent reported difficulty finding safe places to sleep. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Ashley Love, a journalist, advocate, and volunteer with the Black Trans Women’s Lives Matter campaign, provided a statement by email. “Too many trans* teenagers and youth are abandoned not just by their families, social groups, churches and schools, but by health and housing resources meant to protect their most basic needs. [This makes] them disproportionately vulnerable to isolation, stigma, homelessness, and extreme violence, which dehumanized minorities are often faced with, especially Black, Brown, and Indigenous women and girls of transsexual history or transgender identity.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            On the evening of Sunday, February 19, 2017, Malcom Derricktavios Harvey shot Jaquarrius once following a verbal altercation. Harvey remains in police custody and is charged with second-degree murder.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Lorena Cupcake</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Chyna Gibson</center><br /><center><i>New Orleans, Louisiana</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Like the mythical figure of Venus Anadyomene rising out the sea, Chyna Gibson emerged from Hurricane Katrina larger than life. Displaced by the storms at the age of 19, with family scattered across the country, she found opportunities to perform on the stages of clubs like The Jungle in Atlanta and Club 2020 and F Bar in Houston, sometimes under the name Chyna Doll Dupree. <br />You can still watch videos of her, dollar bills fluttering in the air around her body as she dances to songs from Beyoncé and Ciara. One can sense how the glittering lights of the stage provided refuge from the chaos.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Dayshawn Brown knew the talented makeup artist and dancer since her pre-transition teen years attending John McDonogh High School in New Orleans. Over a phone call, he explained Chyna’s role in his chosen family as the adoptive daughter. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Usually, in the LGBTQ community, the older take the younger ones under their wings and try to guide them to find the right direction,” he said. “Show them which way not to go, and stuff like that.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            31-year-old Chyna was loyally devoted to her friends and family, keeping tabs on them even as she moved around the country, including her relocation to Sacramento a year or two before her death.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “She would call like, ‘You didn’t tell me you was dating this person,’” Houston resident Adam Hick explained over the phone. “It would be funny, because she would say, ‘Oh yeah, I’m watching you. I got my eyes on you.’”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            In February of 2017, Gibson traveled to New Orleans to celebrate Mardi Gras. She came from a culture of second line bands, social clubs, and balls; her return to the city was meant to be joyous. Instead, she was shot 10 times outside a shopping center in a seemingly random attack by two assailants who have not been identified. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Brown calls on the New Orleans Police Department to provide closure not just for himself, but for Chyna’s family and the LGBTQ population as a whole. “It always seems like that whenever anyone from the community gets killed, they never find a killer. When the job is not getting done, why should we go and run to y’all?”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>—Lorena Cupcake</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Ciara McElveen</center><br /><center><i>New Orleans, Louisiana</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Ciara McElveen was deeply cared for by chosen family who supported her as she worked to create a stable life for herself. The 25-year-old, who lived in New Orleans, had every reason to hope for a brighter future, but her dreams were cut short by violence.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            7th Ward resident Jean Brooks befriended Ciara after seeing her around the neighborhood. She told The Times-Picayune that she’d acted as a surrogate aunt of sorts to Ciara, who had fled a small hometown in Louisiana, endured homelessness, and gone through rehab.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Because society has made it totally OK to discriminate and hate on TWOC, this rejection forces these women underground in the name of survival,” said Monica James, National Organizer for abolitionist organization Black and Pink, in an emailed statement. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Ciara had an appreciation for simple pleasures, showing resilience and a lust for life despite the difficulty of her circumstances. She enjoyed getting frozen drinks from the drive-thru daiquiri stand and shopping with friends, posting updates to Facebook as they spent time together. She was a passionate cook, sharing recipes and uploading mouth-watering photos of meatloaf and barbecue chicken.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            She referred to close friend Ebony Branch, a popular hair braider in New Orleans, as her “big sis.” The two would hit Bourbon Street, Ciara smiling wide in her signature plum-colored lipstick.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “She said I was one of the most positive people in her life and she was going to stick around me,” Branch told The Times-Picayune. “We were going to look for jobs for her, but we had to wait until Mardi Gras was over.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            The New Orleans Police Department is seeking the owner of a black two-door Chevrolet Camaro with chrome rims that Ciara was riding in on the morning of February 27, 2017. Witnesses overheard a verbal altercation during which the driver exited the vehicle, assaulted Ciara with a weapon, and threw her to the ground. She later succumbed to her injuries at the University Medical Center.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Loved ones from across New Orleans attended her vigil, gathering around the word CIARA spelled out in tea-light candles on a  7th Ward sidewalk. They remembered her fun-loving personality, potential, and her kindness.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “She would give her last to help someone in need, that’s who Ciara was,” said New Orleans trans advocate Andrea Joiner, speaking over the phone about her longtime friend. “She was a genuinely sweet girl.” 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Lorena Cupcake</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Alphonza Watson</center><br /><center><i>Baltimore, Maryland</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Alphonza Watson grew up in Washington D.C., a self-determined young woman who went by the nickname “Peaches” as a teenager. She died in Baltimore, Maryland, a city where she had lived for over a decade, at age 38. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            The area she called home is hypersegregated by race and class. City Paper contributor Lawrence Brown published a chart, “The White L vs. The Black Butterfly,” that neatly contrasts the structural advantages one has when living in The White L (a strip through the center of the city filled with quality public schools, grocery stores, and Charm City Bikeshare locations) versus The Black Butterfly (the rest of the city, which faces school closures, food deserts, disproportionate taxes, and police brutality).
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Alphonza faced multiple arrests in Baltimore between 2006 and 2016; she was found guilty only once. Her story is a clear example of how policing fails to protect trans women of color, especially those engaged in sex work.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            When trans women encounter violence, their options for recourse are limited. In a phone interview, Baltimore Transgender Alliance leader Jamie Grace Alexander helped illustrate why Baltimore trans women of color would be reluctant to involve law enforcement after falling victim to crimes like harassment, theft of services, and/or assault. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “To press charges, she has to interact with the police force that was specifically called out by the Department of Justice as being transphobic. Then when she goes into court, she gets dead-named. Navigating that as a trans person is deliberately impossible,” said Alexander.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Police misconduct is not just a male experience, as black women of color are losing their lives to this violence,” founder of the #SayHerName movement Maria Moore said in a statement provided by email. “Trans women of color are stopped, harassed, assaulted and murdered by police with impunity.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Without any attempts from those in power to enact real structural change, the system — and the city — remains treacherous. Following an argument about money overheard by witnesses in the Old Goucher neighborhood of North Baltimore, Alphonza was shot in the early morning of March 22.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            It usually falls to trans-led groups like the Baltimore Transgender Alliance to organize vigils when a member of the community is killed. “LGBT organizations and community centers...they support us, but they don’t do the work themselves,” said Alexander.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            An afternoon vigil was held at Ynot Loz on North Avenue in Baltimore to celebrate Alphonza’s memory. “If there’s something to be learned from Alphonza’s vigil,” Alexander said. “it’s that she was a person. She was a person who had relationships. People were out there mourning, not just a transgender woman, they were mourning Alphonza. They were mourning their friend. Their sister. Their daughter.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Lorena Cupcake</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Chay Reed</center><br /><center><i>Miami, Florida</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            At the bus stop in Miami one day, Chayviss Reed, known to her friends as “Chay” or “Juicy,” turned to the person next to her and offered a much needed smile. Nocturnus Libertus, a black liberation advocate who was on the receiving end of that warm greeting, recounted the story at a vigil for Chay in May. “I guess I looked sad,” she said. “And [Chay] sat next to me and said ‘Hi,’ and we started talking and we eventually exchanged numbers. It’s pretty unbelievable to see someone so able to change someone’s mood with a smile and to know that someone took them off this earth.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Chay was a 28-year-old who studied at the Homestead Job Corps Center in Miami. She was known for her dance moves, often showing them off to the other students. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Half the time we couldn’t stop her from dancing,” her friend Quinae’ Donnell told the Miami Herald. “She was the life of the Center.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Friends said Chay was more than just another student at Homestead Jobs Corp. “She was like a mom,” another friend, Nina Serafina, told the Herald. “[Chay would] tell you when you’re wrong even if you don’t want to hear it.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Another long-time friend of Chay’s, Patina Peterson, described her in detail to Mic as “a light, always trying to make everyone around her happy.” She added that, “I don’t even remember her getting into anything. I don’t remember seeing her in an altercation out there with anybody in a bad way. I’ve never seen that.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            On Friday, April 21, 2017, at approximately 4:45 a.m., Chay was shot and killed in the West Little River neighborhood in Miami-Dade County. While police have said that someone was seen fleeing the scene of the crime, they have neither suspects nor motive. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Gwen Smith</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center> Kenneth Bostick</center><br /><center><i>New York, New York</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            While correcting reports about Kenneth Bostick’s death in May, his social worker and friend Jennifer Daisy could not have possibly been more affectionate. “He is the kindest, sweetest, gentlest person than any I have ever had the pleasure to know; this is not hyperbole,” she wrote. “My sweet friend, I hope you are on a beach somewhere, having that fruity umbrella drink you talked about, and feel more at peace than you ever did in this life.” 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kenneth was a 59-year-old African American transgender man who lived in the Chelsea neighborhood of Manhattan. He was homeless for much of the last ten years, and had been staying in a shelter at since March of this year. He dreamed of one day having a big apartment to call his own and inviting all his friends over for a big meal. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Homelessness and housing insecurity is common in the transgender community, and trans men and women are often turned away from shelters — particularly sex-segregated shelters. According to the National Center for Transgender Equality, one in five transgender people in the United States has faced discrimination when seeking a home, and more than one in ten have been evicted  due to discrimination based on their gender identity.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Jason Rozycki, a dorm mate of Kenneth’s at the Bowery Residents Committee shelter where the two lived for a while, told the Village Voice that Kenneth was “quiet but super nice, very kind to everyone. Never did anyone any wrong. Never bothered anybody. Just a really nice person.” 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Gwen Smith</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center> Sherrell Faulkner</center><br /><center><i>Charlotte, North Carolina</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Sherrell Faulkner was a force. According to family friend China Turealfaem Phifer, she wasn’t afraid of any man because she had been shot on several occasions and gotten right back up. “When she loved, she loved hard,” Phifer said. “She was genuine. There will never be another Sherrell.” By all accounts, she was a hilarious person and a total flirt. Like the other members of her family, she was deeply religious and believed in the word of God.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Sherrell, a 46-year-old trans woman, was discovered on November 30, 2016, leaning on a dumpster in the supposedly LGBTQ-friendly Plaza-Midwood neighborhood in Charlotte, North Carolina. She had obvious signs of trauma from an apparent assault, including a serious brain injury. Sherrell passed away from her injuries on May 16 at the Carolinas Medical Center in Charlotte, six months after the attack.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Her home state of North Carolina does not have a transgender-inclusive hate crime statute. Moreover, it has been a key battleground state in the fight for transgender rights, as the home of House Bill 2 and House Bill 142, which seek to eliminate LGBTQ non-discrimination protections throughout the state. The bill barred cities from ever passing laws that allowed transgender people access to public accommodations, such as restrooms that align with their gender identity. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            According to Phifer, Sherrell’s family didn’t want her funeral to be attended by many people. She says that Sherrell was buried in a suit and tie and her long blonde hair was shaved off. “They did not let her go out in the way she went out,” she said. “That’s not who she was in life. We didn’t see her as anything other than Sherrell. Kind and funny, laughable, loveable. Let her memory live on.” 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Gwen Smith</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Kenne McFadden</center><br /><center><i> San Antonio, Texas</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kenne McFadden used to post videos of herself singing pop songs on her Facebook page for fun all of the time. In a particularly great one from this February, she’s laying down in bed with a smear of purple lipstick on her lips. She belts out Kelly Clarkson’s “Don’t Waste Your Time” and you can’t take your eyes off of her.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kenne, whose body was discovered in the San Antonio river in April, was a 27-year-old bright spirit who worked as a server at a local restaurant.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            A high school friend, who had asked to remain anonymous when interviewed by KENS in San Antonio, had a lot of praise for Kenne, saying that she “would be that shoulder you needed to cry on. Everything you would expect in a friend, it was Kenne.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            They added, “If you’d given Kenne a chance, [she’s] one of those people you would be so fortunate enough in your entire lifetime to meet. That is a friendship you would want to invest in and you’d hang on to dear life for.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            At the time of the discovery, the police indicted that there were no obvious signs of trauma, and had assumed her death had simply been a drowning. They also misgendered Kenne and used her birth name in their reports, which kept her death largely unknown to the community at large.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            It wasn’t until early June that police changed their tune, when a medical examiner discovered that Kenne had been murdered. The police also determined that she had been pushed into the river. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            This was also when police indicated that Kenne was “in the process of transitioning” at the time of her death, though their own reports continued to misgender her. Police now have a suspect behind bars who knew Kenne, and who was already in jail on charges unrelated to the murder. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Gwen Smith</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Kendra Adams</center><br /><center><i>Ithaca, New York</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kendra Adams, also known to close friends as Josie Berrios, was known in her local community as a founding member of the House of Merlot, a group of Ithaca, NY-based drag performers, with whom she performed under the name Kimbella Rosé. She was 28.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            While Kendra did perform as a drag queen, it is important to acknowledge that off-stage she identified as a transgender woman of color and had recently begun her gender transition. At the time of her death, she was in the process of having her name legally changed to Kendra Adams. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kendra used her drag performances to combat stereotypes about transgender women of color. “She would take every negative thing that people brought about her and every aspect of her personality that could be degraded and blow it back at everyone,” said Colton Bready, another member of the House of Merlot.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Those who knew her spoke of her strong, expressive personality. Her obituary, published in the Ithaca Journal, said, “She was a proud person. Never shying away from who she was. Wearing her heart on her sleeve. She was always there to encourage others, family, friends, and the LGBT+ community. Everyone was pulled close to her and valued her.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Elizabeth Ann Emery, a friend of Kendra's, elaborated, “She was the most selfless, beautiful and extraordinary person I have ever met. She wasn’t just a friend, she was family. She knew more people and had more friends than anyone I have ever encountered. She would help anyone with anything and everything she could.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            On the morning of June 14, Kendra's body was discovered on a Collegetown construction site in Ithaca. According to police reports, she had been partially burned, and a gallon of gasoline was found on the site. That gasoline, as well as a black duffel bag located nearby, were traced back to Michael Davis, who has been charged with second-degree murder and first-degree arson. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Gwen Smith</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center> Kashmire Redd</center><br /><center><i>Gates, New York </i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kashmire Nazer Redd was a 28-year-old trans man. His Facebook page is populated by selfies of himself wearing a perfect snapback on his head and a gold grill over his teeth. His confidence and swagger is evident in every photo.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Kashmire Redd never bothered a soul, he was about his money and his baby girl,” said Madison Cooper, a friend of Kashmire’s. “He was ambitious, strong willed, and self-driven. No matter what he went through he still came out on top. He loved hard and all he ever wanted was to be loved and accepted.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            For several months prior to his murder, Kashmire had been living with his partner, 40-year-old Doris Carrasquillo, in an apartment in Gates, New York. The relationship was not always a peaceful one, with police having been called to the residence a previous time for a domestic dispute. Friends of Kashmire’s had indicated that he was considering leaving Carrasquillo.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            On  September 4, Carrasquillo once again got into an argument with Kashmire. The dispute quickly turned ugly, with Carrasquillo stabbing Kashmire multiple times in their chest. Kashmire ran from the apartment they shared and fell onto the front lawn.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            When police arrived, Kashmire was still alive. He was transported to nearby Strong Memorial Hospital. Medical personnel were unable to aid Kashmire, who died at the hospital. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Kashmire was a black trans man, that is important,” said Rowan Collins, the education coordinator at the Gay Alliance of the Genesee Valley. “Transgender people face high rates of domestic violence and the discrimination they endure in our society adds to the isolation and fear they experience in these situations. This loss is a reminder that we need to break the stigma about domestic and intimate partner violence in our community.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+             <center>—Gwen Smith</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Kiwi Herring</center><br /><center><i>St. Louis, Missouri</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Lena Michelle, Kiwi Herring’s niece, said that Kiwi “made the best sandwiches and was always the life of the party!”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kiwi’s neighbor, Brooke Jones, added, “If you needed anything from Kiwi, she would give it to you. She’d see my kids outside playing and she’d hand out popsicles, have barbecues, all that.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Kiki was a married, 30-year-old transgender woman, raising three young children with her 28-year-old spouse, Kristy Thompson, in St. Louis, Missouri. Kiwi’s husband was also transgender. They moved from Mississippi to Missouri several years ago, but had been facing harassment in the double-occupancy home they shared with others.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Things took a dark turn when a fire broke out at the residence from a barbeque pit on the second floor. While firefighters were able to extinguish the blaze, the couple felt the fire may have been arson, and intended to confront a neighbor over the incident. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “The neighbor was homophobic and made fun of her,” said Crevonda Nance, Herring’s sister-in-law. “We couldn’t understand why he was so angry and why he cared about Kiwi’s sexual orientation.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            During this confrontation, according to police, Kiwi stabbed the neighbor with a butcher knife after reportedly brandishing the knife at officers, and cutting one of them on the arm. According to witnesses, officers fired a total of seven shots at Kiwi.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Kiwi was harassed and executed and it’s a horrible feeling,” said Nance.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Both officers are on administrative leave, and many have questioned their use of force.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “Kiwi was a slim-bottomed woman,” said Nance. “She did not look like she could hurt a fly.  She probably was hysterical, but we feel excessive force was used.” 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Gwen Smith</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Ava Le’Ray Barrin</center><br /><center><i>Athens, Georgia</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            In photos, Ava Le’Ray Barrin’s skin seemed to glow, a flawless indicator of her youth. But according to her sister, Keke Rhodes, Ava will be remembered not for her gorgeous looks but for her supportiveness and personal character more than anything else. “[Ava] was a caring, loving, and understanding person,” Rhodes said. “[She] cared for many, whenever one of [her] friends had a problem [she] would be there to fix it.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Ava was just 17 years old when she was murdered in her hometown of Athens, GA. As of this writing, she’s the youngest trans woman to be taken from us this year. Ava was shot on June 26 after an argument escalated in a parking lot of the Riverview Apartment Complex. According to media reports, it is unclear what the argument was over. Like nearly every other trans murder victim in 2017, Ava was misgendered and deadnamed by both the police and initial media reports. A 21-year-old, Jalen Breon Brown, has been arrested and charged with aggravated assault in connection with her murder.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Friends of Ava wrote a touching obituary for Bazaar Daily News, their way of saying goodbye to their group’s “social butterfly.” 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “If I could find a word to describe who Ava was, I’d say unapologetically real,” the article reads. “She was an amazing girl who didn’t deserve to die, especially, not the way she did. Perhaps the most amazing thing about Ava, was, that she’d befriend just about anyone — as long as you were nice to her in return.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Katelyn Burns</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Gwynevere River Song</center><br /><center><i>Waxahachie, Texas</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Gwynevere River Song lived in Waxahachie, Texas, a suburb of Dallas. Gwynevere identified as femandrogyne and used they/them pronouns. According to their mother, Marcy Mosher, they received very little support from the Ellis County community. Mosher reports that it was that lack of community support that nearly drove her daughter to suicide growing up. “Living in Austin alone and being a trans woman, she said, was unbelievably difficult,” she said. “Much less trying to get through college with a degree and working a few hours at a local drug store in Austin. I wish I had known back from very beginning her true feelings, and that she was on her journey to becoming who she is today.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            While attending UT-Austin, Gwynevere finally came out to their mom. “At the age of 23 she finally told me as we sat in the living room,” she said. “She gave me two different letters, which I still have. One was from whom I thought was my son at the time and the other letter she wrote me was from Gwynevere River Song that she had started her journey while attending UT Austin.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            After Gwynevere graduated in 2015, they moved to California to live with a friend and got a job as a pharmacy technician.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Gwynevere faced numerous problems with their identity documents. Though they were able to change the gender marker and name on their California driver’s license without issue, the state of Texas would not allow a change of sex on their birth certificate. It’s a common problem for too many trans people in the U.S. who are simply trying to live their lives.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Public disrespect for Gwynevere’s identity, unfortunately, was a theme of their life. They, along with 44 of Gwynevere’s neighbors, relatives, and friends, were doxxed by an anti-trans, self-proclaimed radical feminist, and all of the local papers misgendered them and used Gwynevere’s deadname when reporting on their death.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Most of all, Mosher wants everyone to know what a sweet person her child was. “My daughter was incredibly smart,” she said. “An avid reader of current and past historical events, her mind was like a sponge full of knowledge in many topics. Great debater! She was beautiful, caring to the point she carried others’ burdens within herself.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Gwynevere was shot in their home, reportedly in the midst of an altercation with a family member, on August 12, becoming the 17th known trans person to be murdered this year. Authorities did not arrest the person who pulled the trigger to end their life.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Katelyn Burns</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>Ebony Morgan</center><br /><center><i>Lynchburg, Virginia<br /></i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            This year’s Transgender Day of Remembrance, on Monday, November 20, will have a very painful, local connection for the Lynchburg, Virginia, trans community. Ebony Morgan, a resident of the city, became yet another trans woman to be murdered in the U.S. in 2017 and her death has sparked alarm for the safety of the local trans community.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Isaac Zralii, founder of the Lynchburg Transgender Alliance, said over the phone, “We have received a few reports of hate crimes and physical violence in Lynchburg, and there is one trans woman who feels unsafe riding public transportation in town due to comments from other riders.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Police were called to an address on Rivermont Ave shortly after 1 a.m. on July 2, where they found Ebony’s body with multiple gunshot wounds. Police have named a person of interest who was seen fleeing the scene but according to media reports, no arrest has been made in the case thus far.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            The murder itself is emblematic of the lack of support that trans people in the Lynchburg area receive. “We do not have enough doctors, therapists, or endocrinologists [who serve the trans community],” says Zralii. “So that makes it extremely difficult to receive health and mental healthcare in town.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Ebony herself, like so many other victims of trans-related violence, had not changed her legal name and was misgendered and deadnamed by initial police and media reports. Ebony’s family has asked for privacy.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Katelyn Burns</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>TeeTee Dangerfield</center><br /><center><i>Atlanta, Georgia</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            By all accounts, 32-year-old TeeTee Dangerfield was defying the odds. She had a good union job at the airport, she had her own home, and she had recently bought a brand new Dodge Challenger. With so many trans women of color struggling with the effects of poverty, TeeTee was making it. But according to her best friend Wil Arceneaux, there was one other thing on her list that she wanted.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            “She wanted children, she wanted to get married, she wanted a lover,” Arceneaux said. The two were so close that they called each other sisters. “I would call when I woke up in the morning, I would call again two hours later, I would hang out [with TeeTee] for 10 or 12 hours and then still call them again and just be laughing and joking and clowning about the day as if we hadn’t seen each other.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            According to the Georgia Voice, TeeTee “was found with multiple gunshot wounds outside of her vehicle at the South Hampton Estates apartment complex on July 31 at about 4:30 a.m.” 26-year-old Tyrone Kemp has been arrested and charged with TeeTee’s murder. He’s currently being held without bond.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            In conversation with Arceneaux about her friend, it’s easy to feel the love that the two had for each other. “There’s a rare occasion of having an angel walking on Earth and I can say that I was blessed to have an angel in my life,” Arceneaux said. “She was a loving person, she was a caring person. She had the type of personality that when she walked into the room, it was like a black hole. Everything just attracted to her. She just made you come near her, she made you just love her.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            TeeTee will especially be missed by Arceneaux and the rest of her closest friends, including Ashley Clay, LaRon Thompson, and Jerome People.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Katelyn Burns</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center> Derricka Banner</center><br /><center><i>Charlotte, North Carolina </i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            On an online memorial page for 26-year-old Derricka Banner, her godmother Denise Helton said that the two called each other every morning to say “I love you.” A fellow churchgoer La-Keeta Moore remembered her for her religious spirit. “I had the pleasure to have prayer with you a few weeks ago at church and I know you felt it deep in your spirit as the tears ran down your face,” she wrote on the page. “You were always full of humor and didn't mind speaking your mind!”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Banner was found dead on September 12 by Charlotte police who were patrolling neighborhoods, assessing wind damage from Tropical Storm Irma. They discovered Derricka’s body in the front of her car, and police reports and initial news coverage of her death misgendered her. The murder took place just days before the city’s pride celebrations where Derricka was honored. 
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Police don’t believe that Derricka’s status as a trans woman is connected to the murder, but a close friend, who goes by Tooker, believes it is. She told local news outlets that she witnessed the murder from the trunk of the car. Derricka was apparently scared to meet the man who’s been charged with her murder alone and took Tooker along for the ride. “He’s a coward, he doesn’t know who he is,” Tooker told a local CBS affiliate. “He tried something, didn’t like it, and couldn’t live with it.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Myles Tanzer</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center>&#8258</center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <br /><center> Ally Lee Steinfeld</center><br /><center><i>Houston, Missouri</i></center>
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Ally Lee Steinfeld’s Facebook profile is filled with thousands of selfies from every angle and with every filter possible. The number of her public snaps spiked dramatically this July after she colored her hair an electric shade of pink that burst with energy. “I love my new hair omg,” the 17-year-old wrote. She uploaded a ton of videos wearing camo tees, rocking out in her car to Top 40 songs made by Julia Michaels, and blackbear. Ally’s Facebook page and its deep collections of photos is now a public memorial for her friends and loved ones.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            In September, Ally was reported missing by her family. An intense search commenced and her body was eventually found in a chicken coop close to one of the suspect’s houses. There was evidence of extreme violence. Three suspects, who were all close to Ally, have been charged with her murder and a fourth has been charged with abandoning her body. One of the suspects has confessed to the murder. The state will not be proceeding with the case as a hate crime. Missouri can’t add hate crime charges to a first degree murder charges because the defendants are already facing the death penalty.
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Ally’s partner Marie Carma says that Ally was the love of her life. The young couple had got engaged after dating for almost two years and they loved each other very much. “We were like Harley and Joker,” she said. “No matter what, we always find our way back to each other.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            Over Facebook Messenger, Marie used a flurry of beautiful adjectives to describe her fiancée: polite, sweet, kind, loving, and caring. “She had such a sweet heart.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            In June, Ally posted a cartoon drawing of two flirty women on a bench with the caption “I am proud to be me I am proud to be trans I am beautiful I don't care what people think.”
+          </p>
+
+
+
+
+
+
+
+
+
+
+          <p>
+            <center>—Myles Tanzer</center>
+          </p>
+
+
+
+
+
+      </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- Collection Callout (prev <-> next article in collection) -->
+
+<!-- END COLLECTION CALL OUT -->
+
+<div class="footer_socials_wrap triple_gutter_left gutter_btm">
+  <div id="new_socials_bottom" class="new_socials_footer  ">
+
+  <a target=&quot;new&quot; href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.thefader.com%2F2017%2F10%2F15%2Ftrans-memorial-obituaries%3Futm_source%3Df%26utm_medium%3Dfb%26utm_campaign%3Dshare" class="new_social_footer_button facebook new_social_share_button" data-ga-event-category="Social Share" data-ga-event-label="Facebook" data-ga-on="click" data-ga-event-action="cilck">
+      <img class="" width="40" height="40" src="/assets/FDR_SocialSharing_Facebook-747312c39722d47504a80f02500b8d4ad2e36acf922bad1c83799db1bc77f605.png" alt="Fdr socialsharing facebook" />
+      <!-- <span>Share</span> -->
+  </a>
+
+  <a target=&quot;new&quot; href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.thefader.com%2F2017%2F10%2F15%2Ftrans-memorial-obituaries%3Futm_source%3Df%26utm_medium%3Dtw%26utm_campaign%3Dshare&amp;text=Rest in power&amp;via=thefader" class="new_social_footer_button twitter new_social_share_button" data-ga-event-category="Social Share" data-ga-event-label="Twitter" data-ga-on="click" data-ga-event-action="cilck">
+
+    <img class="" width="40" height="40" src="/assets/FDR_SocialSharing_Twitter-8d78f695280aa3f8a4461702c68e9fcbfd6042af1600c62d49fdec4b735fb57a.png" alt="Fdr socialsharing twitter" />
+    <!-- <span>Tweet</span> -->
+  </a>
+
+    <a class="new_social_footer_button snap new_social_share_button snapchat-share-button" data-share-url="https://www.thefader.com/2017/10/15/trans-memorial-obituaries?utm_source=snapchat&amp;utm_medium=web&amp;utm_campaign=share" data-ga-event-category="Social Share" data-ga-event-label="Snapchat" data-ga-on="click" data-ga-event-action="cilck">
+
+        <img class="" width="20" height="20" src="/assets/logo-snapchat-5f1563935ac089d0cf1773f642ddbfb6cdb16e8c4ac14fec95a3c11b6f963389.svg" alt="Logo snapchat" />
+        <!-- <span>Snap</span> -->
+    </a>
+
+</div>
+
+</div>
+
+
+<div class="meta_info_block triple_gutter_left triple_gutter_right gutter_top">
+
+      <div class="meta_tags">
+            <a data-ga-event-category="Recirculation" data-ga-event-label="Tag" data-ga-on="click" data-ga-event-action="click" href="/magazine/111">Issue 111, </a>
+            <a data-ga-event-category="Recirculation" data-ga-event-label="Tag" data-ga-on="click" data-ga-event-action="click" href="/tag/news">News</a>
+      </div>
+
+</div>
+
+
+
+
+
+
+
+
+    <button class="read-full-story-button" data-ga-on="click" data-ga-event-category="Mobile Article Read More" data-ga-event-action="click">Read full story</button>
+
+  </article>
+
+
+        <div class="article_trending">
+          
+  <section class="popular_posts row">
+    <div class="gutter_top gutter_btm">
+      <h3 class="mono_heading size_28">Trending</h3>
+
+
+
+
+        <div class="row gutter_left" style="margin-bottom: 20px;">
+
+
+
+              <div class="card popular_post vertical music gutter_right" data-ga-event-category="Recirculation" data-ga-event-action="click" data-ga-on="click" data-ga-event-label="Article Trending" data-ga-event-value="1">
+    <div class="card_inner_wrapper">
+
+      <div class="bottom card_info_wrapper">
+	      <a href="/2021/11/01/rihanna-the-weeknd-cardi-b-halloween-looks" class="permalink">
+
+	          <div class="card_media">
+
+
+              <img class="photo fit_w"
+                src="https://thefader-res.cloudinary.com/private_images/w_200,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/GettyImages-1283109109_kzfh6q.jpg"
+                srcset="https://thefader-res.cloudinary.com/private_images/w_220,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 220w,https://thefader-res.cloudinary.com/private_images/w_300,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 300w,https://thefader-res.cloudinary.com/private_images/w_400,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 400w,https://thefader-res.cloudinary.com/private_images/w_600,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 600w,https://thefader-res.cloudinary.com/private_images/w_750,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 750w,https://thefader-res.cloudinary.com/private_images/w_840,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 840w,https://thefader-res.cloudinary.com/private_images/w_960,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 960w,https://thefader-res.cloudinary.com/private_images/w_1260,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 1260w,https://thefader-res.cloudinary.com/private_images/w_1800,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 1800w,https://thefader-res.cloudinary.com/private_images/w_2400,c_limit,f_auto,q_auto:low/GettyImages-1283109109_kzfh6q/rihanna-the-weeknd-cardi-b-halloween-looks.jpg 2400w,"
+                sizes="300px"
+                alt="Rihanna dressed as Gunna and 15 other musician’s Halloween looks"
+              />
+
+
+	          </div>
+
+	        <div class="card_info">
+	          <h4 class="card_headline">Rihanna dressed as Gunna and 15 other musician’s Halloween looks</h4>
+	        </div>
+	      </a>
+      </div>
+
+      <div class="top">
+        <span class="card_slug music">
+  <a class="vertical" href="/music">music</a>
+
+  /
+    <a class="category" href="/tag/pop">Pop</a>
+
+</span>
+
+      </div>
+    </div>
+  </div>
+
+
+
+            
+
+
+              <div class="card popular_post vertical music gutter_right" data-ga-event-category="Recirculation" data-ga-event-action="click" data-ga-on="click" data-ga-event-label="Article Trending" data-ga-event-value="1">
+    <div class="card_inner_wrapper">
+
+      <div class="bottom card_info_wrapper">
+	      <a href="/2021/11/02/anderson-paak-apeshit-inc-label" class="permalink">
+
+	          <div class="card_media">
+
+
+              <img class="photo fit_w"
+                src="https://thefader-res.cloudinary.com/private_images/w_200,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/GettyImages-1192726098_omwh13.jpg"
+                srcset="https://thefader-res.cloudinary.com/private_images/w_220,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 220w,https://thefader-res.cloudinary.com/private_images/w_300,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 300w,https://thefader-res.cloudinary.com/private_images/w_400,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 400w,https://thefader-res.cloudinary.com/private_images/w_600,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 600w,https://thefader-res.cloudinary.com/private_images/w_750,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 750w,https://thefader-res.cloudinary.com/private_images/w_840,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 840w,https://thefader-res.cloudinary.com/private_images/w_960,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 960w,https://thefader-res.cloudinary.com/private_images/w_1260,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 1260w,https://thefader-res.cloudinary.com/private_images/w_1800,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 1800w,https://thefader-res.cloudinary.com/private_images/w_2400,c_limit,f_auto,q_auto:low/GettyImages-1192726098_omwh13/anderson-paak-apeshit-inc-label.jpg 2400w,"
+                sizes="300px"
+                alt="Anderson .Paak launches APESHIT INC. label"
+              />
+
+
+	          </div>
+
+	        <div class="card_info">
+	          <h4 class="card_headline">Anderson .Paak launches APESHIT INC. label</h4>
+	        </div>
+	      </a>
+      </div>
+
+      <div class="top">
+        <span class="card_slug music">
+  <a class="vertical" href="/music">music</a>
+
+  /
+    <a class="category" href="/tag/hip-hop">Hip-Hop</a>
+
+</span>
+
+      </div>
+    </div>
+  </div>
+
+
+
+            
+
+
+              <div class="card popular_post vertical music gutter_right" data-ga-event-category="Recirculation" data-ga-event-action="click" data-ga-on="click" data-ga-event-label="Article Trending" data-ga-event-value="1">
+    <div class="card_inner_wrapper">
+
+      <div class="bottom card_info_wrapper">
+	      <a href="/2021/11/01/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side" class="permalink">
+
+	          <div class="card_media">
+
+
+              <img class="photo fit_w"
+                src="https://thefader-res.cloudinary.com/private_images/w_200,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/pjimage_3_qt6e5q.jpg"
+                srcset="https://thefader-res.cloudinary.com/private_images/w_220,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 220w,https://thefader-res.cloudinary.com/private_images/w_300,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 300w,https://thefader-res.cloudinary.com/private_images/w_400,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 400w,https://thefader-res.cloudinary.com/private_images/w_600,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 600w,https://thefader-res.cloudinary.com/private_images/w_750,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 750w,https://thefader-res.cloudinary.com/private_images/w_840,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 840w,https://thefader-res.cloudinary.com/private_images/w_960,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 960w,https://thefader-res.cloudinary.com/private_images/w_1260,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 1260w,https://thefader-res.cloudinary.com/private_images/w_1800,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 1800w,https://thefader-res.cloudinary.com/private_images/w_2400,c_limit,f_auto,q_auto:low/pjimage_3_qt6e5q/dj-premier-on-gang-starr-80s-synth-pop-and-biggies-comedic-side.jpg 2400w,"
+                sizes="300px"
+                alt="DJ Premier on Gang Starr, ’80s synth pop, and Biggie’s comedic side"
+              />
+
+
+	          </div>
+
+	        <div class="card_info">
+	          <h4 class="card_headline">DJ Premier on Gang Starr, ’80s synth pop, and Biggie’s comedic side</h4>
+	        </div>
+	      </a>
+      </div>
+
+      <div class="top">
+        <span class="card_slug music">
+  <a class="vertical" href="/music">music</a>
+
+  /
+    <a class="category" href="/tag/hip-hop">Hip-Hop</a>
+
+</span>
+
+      </div>
+    </div>
+  </div>
+
+
+
+            
+
+
+              <div class="card popular_post vertical music gutter_right" data-ga-event-category="Recirculation" data-ga-event-action="click" data-ga-on="click" data-ga-event-label="Article Trending" data-ga-event-value="1">
+    <div class="card_inner_wrapper">
+
+      <div class="bottom card_info_wrapper">
+	      <a href="/2021/10/31/cover-story-dj-premier-rev-run-and-zack-de-la-rocha" class="permalink">
+
+	          <div class="card_media">
+
+
+              <img class="photo fit_w"
+                src="https://thefader-res.cloudinary.com/private_images/w_200,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz.jpg"
+                srcset="https://thefader-res.cloudinary.com/private_images/w_220,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 220w,https://thefader-res.cloudinary.com/private_images/w_300,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 300w,https://thefader-res.cloudinary.com/private_images/w_400,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 400w,https://thefader-res.cloudinary.com/private_images/w_600,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 600w,https://thefader-res.cloudinary.com/private_images/w_750,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 750w,https://thefader-res.cloudinary.com/private_images/w_840,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 840w,https://thefader-res.cloudinary.com/private_images/w_960,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 960w,https://thefader-res.cloudinary.com/private_images/w_1260,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 1260w,https://thefader-res.cloudinary.com/private_images/w_1800,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 1800w,https://thefader-res.cloudinary.com/private_images/w_2400,c_limit,f_auto,q_auto:low/THEFADER_002_Winter99_ReverendRun_ZackdelaRocha_DJPremier-pages-1-page-001_qnhxlz/cover-story-dj-premier-rev-run-and-zack-de-la-rocha.jpg 2400w,"
+                sizes="300px"
+                alt="Cover Story: DJ Premier, Rev. Run, and Zack de la Rocha"
+              />
+
+
+	          </div>
+
+	        <div class="card_info">
+	          <h4 class="card_headline">Cover Story: DJ Premier, Rev. Run, and Zack de la Rocha</h4>
+	        </div>
+	      </a>
+      </div>
+
+      <div class="top">
+        <span class="card_slug music">
+  <a class="vertical" href="/music">music</a>
+
+  /
+    <a class="category" href="/tag/hip-hop">Hip-Hop</a>
+
+</span>
+
+      </div>
+    </div>
+  </div>
+
+
+
+            
+
+
+              <div class="card popular_post vertical music gutter_right" data-ga-event-category="Recirculation" data-ga-event-action="click" data-ga-on="click" data-ga-event-label="Article Trending" data-ga-event-value="1">
+    <div class="card_inner_wrapper">
+
+      <div class="bottom card_info_wrapper">
+	      <a href="/2021/11/03/the-weeknd-post-malone-tease-new-collaboration" class="permalink">
+
+	          <div class="card_media">
+
+
+              <img class="photo fit_w"
+                src="https://thefader-res.cloudinary.com/private_images/w_200,c_limit,f_auto,q_auto:low/pjimage_fqyosp/pjimage_fqyosp.jpg"
+                srcset="https://thefader-res.cloudinary.com/private_images/w_220,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 220w,https://thefader-res.cloudinary.com/private_images/w_300,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 300w,https://thefader-res.cloudinary.com/private_images/w_400,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 400w,https://thefader-res.cloudinary.com/private_images/w_600,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 600w,https://thefader-res.cloudinary.com/private_images/w_750,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 750w,https://thefader-res.cloudinary.com/private_images/w_840,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 840w,https://thefader-res.cloudinary.com/private_images/w_960,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 960w,https://thefader-res.cloudinary.com/private_images/w_1260,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 1260w,https://thefader-res.cloudinary.com/private_images/w_1800,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 1800w,https://thefader-res.cloudinary.com/private_images/w_2400,c_limit,f_auto,q_auto:low/pjimage_fqyosp/the-weeknd-post-malone-tease-new-collaboration.jpg 2400w,"
+                sizes="300px"
+                alt="Post Malone and The Weeknd tease new collaboration"
+              />
+
+
+	          </div>
+
+	        <div class="card_info">
+	          <h4 class="card_headline">Post Malone and The Weeknd tease new collaboration</h4>
+	        </div>
+	      </a>
+      </div>
+
+      <div class="top">
+        <span class="card_slug music">
+  <a class="vertical" href="/music">music</a>
+
+  /
+    <a class="category" href="/tag/hip-hop">Hip-Hop</a>
+
+</span>
+
+      </div>
+    </div>
+  </div>
+
+
+
+            
+
+        </div>
+        
+
+    </div>
+  </section>
+
+
+        </div>
+
+        
+
+    <!-- fullscreen wrapper -->
+    <div class="fullscreen_wrapper">
+      <div class="fullscreen_header_block">
+        <div class="slug culture double_gutter_left gutter_top"><a class="vertical" href="/culture">culture</a> / <a class="category" href="/Features">Features</a></div>
+        <span class="title gutter_left_gutter_right gutter_top">Rest in power</span>
+        <div class="close gutter_right gutter_top"><span class="icon_close"></span></div>
+      </div>
+      <div class="fullscreen_slideshow_wrapper triple_gutter_left triple_gutter_right gutter_top gutter_btm"></div>
+    </div>
+
+    <!-- <div id="emberapp"></div> -->
+
+
+
+
+
+
+  
+
+
+  </div>
+    <section class="ad banner_ad row footer_ad ">
+  <div class="ad_outer_wrapper">
+    <div class="ad_inner_wrapper">
+      <div id='div-footer-ad' class="ad-fixed">
+
+
+      <script>
+       displayRtkAdSlot("RTK_Oel5", 'div-footer-ad', 'fader_v3_article_footer_728_90', false, true);
+
+       setupRtkAdObserver('div-footer-ad');
+      </script>
+
+</div>
+
+    </div>
+  </div>
+</section>
+
+  <footer class="gutter_right gutter_left ">
+  <div class="footer_top_row">
+    <a class="logo_wrapper" href="/home"> <div class="footer_logo"></div></a>
+    <div class="footer_links gutter_left">
+      <ul class="footer_page_links">
+        <li><a href="/contact">Contact</a></li>
+        <li><a target="_blank" href="http://advertising.thefader.com/">Advertising</a></li>
+        <li><a href="/terms-of-use">Terms of Use</a></li>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+        <li><a href="/cookie-policy">Cookie Policy</a></li>
+        <li><a target="_blank" href="http://www.faderlabel.com">Fader Label</a></li>
+        <li><a target="_blank" href="http://www.faderfilms.com">Fader Films</a></li>
+      </ul>
+      <ul class="footer_social_links">
+        <li><a target="_blank" href="https://twitter.com/thefader">Twitter</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/thefader">Facebook</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/user/TheFaderTeam?sub_confirmation=1">Youtube</a></li>
+        <li><a target="_blank" href="https://www.instagram.com/thefader/">Instagram</a></li>
+        <li><a target="_blank" href="https://itunes.apple.com/us/curator/the-fader/id999961432">Apple Music</a></li>
+        <li><a target="_blank" href="http://soundcloud.com/fadermedia">Soundcloud</a></li>
+        <li><a target="_blank" href="https://open.spotify.com/user/thefader">Spotify</a></li>
+        <li><a target="_blank" href="/feed.rss">RSS</a></li>
+        
+      </ul>
+    </div>
+  </div>
+
+    <div class="footer_content">
+
+    <div class="updates_form">
+  <form id="updates">
+    <div class="footer_header mono_heading size_21">
+      Click me. Read me. The FADER newsletter.
+    </div>
+    <div class="signup">
+      <input type="text" class="email" placeholder="Email address" name="email" />
+      <input type="hidden" id="signup_location" name="signup_location" value="email_footer_form">
+      <input type="submit" class="submit border_btn white" value="Sign Up" >
+    </div>
+  </form>
+</div>
+
+
+  </div>
+  
+  
+  <div class="credits">
+    <div class="fader_copyright">©2021  The Fader, Inc. All rights reserved.</div>
+    <div class="ws_credit">
+      <a href="http://www.wondersauce.com" target="_blank">
+        <div class="ws_logo"></div>
+        <span>Site By Wondersauce</span>
+      </a>
+    </div>
+</footer>
+
+  <div class="overlay"></div>
+</div>
+
+
+
+
+<!-- Quantcast Tag, part 2 -->
+<script type="text/javascript">
+ _qevents.push( { qacct:"p-579gYVoxaB70s"} );
+</script>
+<noscript>
+  <div style="display: none;">
+    <img src="https://pixel.quantserve.com/pixel/p-test123.gif" height="1" width="1" alt="Quantcast"/>
+  </div>
+</noscript>
+
+<!-- Twitter -->
+
+  <script type="text/plain" data-cookieconsent="marketing">
+
+ !function(e,n,u,a){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):
+                                               a.queue.push(arguments);},a.version='1',a.queue=[],t=n.createElement(u),
+                            t.async=!0,t.src='//static.ads-twitter.com/uwt.js',s=n.getElementsByTagName(u)[0],
+                            s.parentNode.insertBefore(t,s))}(window,document,'script');
+ // Insert Twitter Pixel ID and Standard Event data below
+ twq('init','nv3j0');
+ twq('track','PageView');
+
+ twq('init','o5uzs');
+ twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+
+  <script type="text/plain" data-cookieconsent="marketing" 
+      src="//dc8xl0ndzn2cb.cloudfront.net/js/thefader/v0/keywee.min.js" type="text/javascript" defer>
+  </script>
+
+  <!-- TODO: async re-enable? -->
+  <script  type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"47e24c510ba5e583e081e747e","lid":"58ecd52b41","uniqueMethods":true}) })</script>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  </body>
+</html>
