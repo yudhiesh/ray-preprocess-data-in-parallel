@@ -1,4 +1,4 @@
-# preprocess-data-in-parallel-with-ray-lp-author
+# preprocess-data-in-parallel-with-ray
 
 Repository for liveProject: Preprocess Data in Parallel with Ray
 
@@ -27,8 +27,9 @@ This json file is updated and run through the [@timing decorator](https://github
 
 I have two versions being stored currently(will add another for the Ray + asyncio version):
 
-1. `run_basic_program` takes 1600 seconds to run(base synchronous version)
-2. `run_ray_program` takes rought 12.3 seconds to run(Ray parallelising processing function)
+1. Synchronous version takes 1600 seconds to run(`python src/web_scraper/main.py sync run`)
+2. Asynchronous + Multiprocessing version takes 335 seconds to run(`python src/web_scraper/main.py async run --semaphore-count 50`)
+3. Ray implementation takes roughly 12.3 seconds to run(`python src/web_scraper/main.py sync_ray run`)
 
 # Stage 2
 
